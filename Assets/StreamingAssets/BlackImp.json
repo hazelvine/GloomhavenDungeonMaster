@@ -1,0 +1,169 @@
+{
+	"name": "Black Imp",
+	"level": [
+        {
+          "level": 0,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 3,
+            "move": 1,
+            "attack": 1,
+            "range": 3
+          }
+		,{
+		"type":"elite",
+            "health": 4,
+            "move": 1,
+            "attack": 2,
+            "range": 3,
+            "poison":true
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 4,
+            "move": 1,
+            "attack": 1,
+            "range": 3,
+            "poison":true
+          }
+		,{
+		"type":"elite",
+            "health": 6,
+            "move": 1,
+            "attack": 2,
+            "range": 3,
+            "poison":true            
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 5,
+            "move": 1,
+            "attack": 1,
+            "range": 4,
+            "poison":true
+          }
+		,{
+		"type":"elite",
+            "health": 8,
+            "move": 1,
+            "attack": 2,
+            "range": 4,
+			"poison":true
+          }]
+        },
+        {
+          "level": 3,
+         "statGroup":[
+		{
+		"type":"normal",
+            "health": 5,
+            "move": 1,
+            "attack": 2,
+            "range": 4,
+            "poison":true
+          }
+		,{
+		"type":"elite",
+            "health": 8,
+            "move": 1,
+            "attack": 3,
+            "range": 4,
+			"disadvantage":true,
+            "poison":true
+          }]
+        },
+        {
+          "level": 4,
+         "statGroup":[
+		{
+		"type":"normal",
+            "health": 7,
+            "move": 1,
+            "attack": 2,
+            "range": 4,
+            "poison":true
+          }
+		,{
+		"type":"elite",
+            "health": 11,
+            "move": 1,
+            "attack": 3,
+            "range": 4,
+			"disadvantage":true,
+            "poison":true
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 9,
+            "move": 1,
+            "attack": 2,
+            "range": 4,
+            "poison":true
+          }
+		,{
+		"type":"elite",
+            "health": 12,
+            "move": 1,
+            "attack": 3,
+            "range": 5,
+			"disadvantage":true,
+            "poison":true
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 10,
+            "move": 1,
+            "attack": 3,
+            "range": 4,
+            "poison":true
+          }
+		,{
+		"type":"elite",
+            "health": 14,
+            "move": 1,
+            "attack": 4,
+            "range": 5,
+			"disadvantage":true,
+            "poison":true
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 12,
+            "move": 1,
+            "attack": 3,
+            "range": 4,
+            "poison":true
+          }
+		,{
+		"type":"elite",
+            "health": 17,
+            "move": 1,
+            "attack": 4,
+            "range": 5,
+			"disadvantage":true,
+            "poison":true
+          }]
+        }
+      ]
+}

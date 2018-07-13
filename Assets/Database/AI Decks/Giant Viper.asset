@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Giant Viper
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: fd09ad0a94f9d2748a6a0074879838a5, type: 2}
+  - {fileID: 11400000, guid: c7738e86a26f06841a967e8c44292ecd, type: 2}
+  - {fileID: 11400000, guid: 66dc1415c9f40cd418a8cb34e416ffda, type: 2}
+  - {fileID: 11400000, guid: 88636e8dc099e0e4fa834eba4b877179, type: 2}
+  - {fileID: 11400000, guid: 87d78982b45322d48b911b265d61062e, type: 2}
+  - {fileID: 11400000, guid: 8a7cf2cde754ea64ea74eb27f64317a3, type: 2}
+  - {fileID: 11400000, guid: 97c9048c0260eac41941f843a5622790, type: 2}
+  - {fileID: 11400000, guid: 8b1abe993914dfa4d950ce8aaae53241, type: 2}

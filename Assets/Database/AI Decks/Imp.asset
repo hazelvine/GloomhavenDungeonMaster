@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Imp
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: f4a2c00a99257354b9846f8af6dcfb5b, type: 2}
+  - {fileID: 11400000, guid: dfbc582117fd16a45ae93c8ff7fe44a4, type: 2}
+  - {fileID: 11400000, guid: 2a4eb7e513272f345ba93e8e47ed94e1, type: 2}
+  - {fileID: 11400000, guid: 5c9e3fe9c2015fd4fbf92e89e54c9f16, type: 2}
+  - {fileID: 11400000, guid: 0c5935ee3b7381c4b9732593029689b7, type: 2}
+  - {fileID: 11400000, guid: d803c79ceceba6d4486657db648d5718, type: 2}
+  - {fileID: 11400000, guid: fcea616d8ff8761439bf2a5e9df7bc95, type: 2}
+  - {fileID: 11400000, guid: 5d1cbc6e0e351654585424fab001a8d0, type: 2}

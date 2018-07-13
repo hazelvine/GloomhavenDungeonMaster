@@ -1,0 +1,151 @@
+{
+
+	"name": "Dark Rider",
+	"isBoss": true,
+	"immunity":{"poison":true, "immobilize":true, "disarm":true, "stun":true},
+	"level": [
+        {
+          "level": 0,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 9,
+            "move": 2,
+            "attack": 3,
+            "range": 0
+          },{
+			"type":"elite",
+            "health": 9,
+            "move": 2,
+            "attack": 3,
+            "range": 0
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 10,
+            "move": 3,
+            "attack": 3,
+            "range": 0
+          },
+		  {
+			"type":"elite",
+            "health": 10,
+            "move": 3,
+            "attack": 3,
+            "range": 0
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 12,
+            "move": 3,
+            "attack": 3,
+            "range": 0
+          },
+		  {
+			"type":"elite",
+            "health": 12,
+            "move": 3,
+            "attack": 3,
+            "range": 0
+          }]
+        },
+        {
+          "level": 3,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 13,
+            "move": 3,
+            "attack": 4,
+            "range": 0
+         },
+	  {
+			"type":"elite",
+            "health": 13,
+            "move": 3,
+            "attack": 4,
+            "range": 0
+         }]
+        },
+        {
+          "level": 4,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 15,
+            "move": 3,
+            "attack": 4,
+            "range": 0
+          },
+	  {
+			"type":"elite",
+            "health": 15,
+            "move": 3,
+            "attack": 4,
+            "range": 0
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 16,
+            "move": 3,
+            "attack": 5,
+            "range": 0
+          },
+	  {
+			"type":"elite",
+            "health": 16,
+            "move": 3,
+            "attack": 5,
+            "range": 0
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 16,
+            "move": 4,
+            "attack": 5,
+            "range": 0
+          },
+	  {
+		"type":"elite",
+            "health": 16,
+            "move": 4,
+            "attack": 5,
+            "range": 0
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 18,
+            "move": 4,
+            "attack": 6,
+            "range": 0
+         },
+	  {
+		"type":"elite",
+            "health": 18,
+            "move": 4,
+            "attack": 6,
+            "range": 0
+         }]
+        }
+      ]
+}

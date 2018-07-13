@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Living Corpse
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 599e033597b52dc41ab0a4990425cc34, type: 2}
+  - {fileID: 11400000, guid: fd7b732be437e3c4888235c5ac2b4fbc, type: 2}
+  - {fileID: 11400000, guid: 2ebb2e6af5f6e7b4da2fc9c6f74792fd, type: 2}
+  - {fileID: 11400000, guid: 46aa22c81b584fb4f94e307ca06e90a4, type: 2}
+  - {fileID: 11400000, guid: 7149475c568615c4c971145099d29c21, type: 2}
+  - {fileID: 11400000, guid: 726c450faa30f86409ed7d590f9ff29f, type: 2}
+  - {fileID: 11400000, guid: 970081c1b37ba624e8ca37285108f5bc, type: 2}
+  - {fileID: 11400000, guid: 60910269e17940c4fbb1cff278a2ff36, type: 2}

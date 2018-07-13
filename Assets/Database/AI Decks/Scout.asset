@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Scout
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: f903aa57da2c4a843ad7770dbcc90e21, type: 2}
+  - {fileID: 11400000, guid: e92140cc8be18904d9c5769ae297c225, type: 2}
+  - {fileID: 11400000, guid: 7fb8d1c7f7785a5469eb376ccd4e500c, type: 2}
+  - {fileID: 11400000, guid: 687e2d8560bcc99499b03b5d5ecec413, type: 2}
+  - {fileID: 11400000, guid: 60ea42b1cc02591459a077e478e256de, type: 2}
+  - {fileID: 11400000, guid: 7699766df614e324b9262e8277fac6d8, type: 2}
+  - {fileID: 11400000, guid: 23400145cc9dbd1419b82eb9d95c4f3c, type: 2}
+  - {fileID: 11400000, guid: 985c1cc0eb6613647ae2ad08d2e7cd89, type: 2}

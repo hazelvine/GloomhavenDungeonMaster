@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef08c6b5ae94634c95b09df8e048d09, type: 3}
+  m_Name: Rock Column
+  m_EditorClassIdentifier: 
+  initiative: 99
+  creatureLevel: 1
+  image: {fileID: 21300000, guid: 2ff33298292e6e84b8be6500513f4f8c, type: 3}
+  thumbnail: {fileID: 21300000, guid: 7ec71f931211e684990d1f7460bf8939, type: 3}
+  dbStatPath: RockColumn.json
+  DeckType: Rock Column
+  deck:
+    name: Rock Column
+    cards:
+    - shuffle: 1
+      initiative: 99
+      line:
+      - name: text
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: aoe-none
+        aoe2: aoe-none
+        label: Special1
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: text
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: aoe-none
+        aoe2: aoe-none
+        label: Special2
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+  creatureDeck:
+  - shuffle: 1
+    initiative: 99
+    line:
+    - name: text
+      jump: 0
+      mod: 0
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: aoe-none
+      aoe2: aoe-none
+      label: Special1
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: text
+      jump: 0
+      mod: 0
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: aoe-none
+      aoe2: aoe-none
+      label: Special2
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+  creature:
+  - {fileID: 11400000, guid: f602ef1a51719e140989290dc8fbd7ba, type: 2}
+  stats:
+    name: Rock Column
+    isBoss: 0
+    isNPC: 1
+    canFly: 0
+    immunity:
+      poison: 0
+      muddle: 0
+      curse: 0
+      immobilize: 0
+      disarm: 0
+      wound: 0
+      stun: 0
+      advantage: 0
+      disadvantage: 0
+      push: 0
+      pull: 0
+    level:
+    - level: 0
+      statGroup:
+      - type: normal
+        health: 0
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 1
+      statGroup:
+      - type: normal
+        health: 18
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 0
+      statGroup:
+      - type: normal
+        health: 0
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 3
+      statGroup:
+      - type: normal
+        health: 0
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 4
+      statGroup:
+      - type: normal
+        health: 0
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 5
+      statGroup:
+      - type: normal
+        health: 0
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 6
+      statGroup:
+      - type: normal
+        health: 0
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 7
+      statGroup:
+      - type: normal
+        health: 0
+        move: 0
+        attack: 0
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0

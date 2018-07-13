@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Ooze
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 863e28492f0d2d041b066ab1644b4238, type: 2}
+  - {fileID: 11400000, guid: ffafa856d7c8bc043baac268af945c75, type: 2}
+  - {fileID: 11400000, guid: 0d77445512bdadd46bd3fc1f52fe4584, type: 2}
+  - {fileID: 11400000, guid: 6f33334f3c47ce3459a2e47d6141008e, type: 2}
+  - {fileID: 11400000, guid: a44ceb53683d03941ab30554c68e5c3c, type: 2}
+  - {fileID: 11400000, guid: 6b643523c52e3f64b8be134a09841fa3, type: 2}
+  - {fileID: 11400000, guid: 37b05056b0a000e4ba40934394c5acbb, type: 2}
+  - {fileID: 11400000, guid: 1d42815e5ced19a40a67956f74f93e91, type: 2}

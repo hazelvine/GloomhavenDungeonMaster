@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Guard
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: e02784c9a93900d4aa9161cb5bd6e342, type: 2}
+  - {fileID: 11400000, guid: fae7aeac2960d6d4a93846aca68e24d2, type: 2}
+  - {fileID: 11400000, guid: 48e5c74dce1dd8f41b35528eed4ee5ed, type: 2}
+  - {fileID: 11400000, guid: d55a533ea93850f47ac75ab97a8c1e67, type: 2}
+  - {fileID: 11400000, guid: 207c8ce152790424e82fc33cd249d9f9, type: 2}
+  - {fileID: 11400000, guid: 8588b4914f940bc489765fb061bb0e1a, type: 2}
+  - {fileID: 11400000, guid: 38a5ef6bcd2be9246830297d7dea4054, type: 2}
+  - {fileID: 11400000, guid: 8d4d4dfcf105e08449b4472ddda4330e, type: 2}

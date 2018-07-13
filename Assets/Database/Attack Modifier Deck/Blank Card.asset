@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f650f3cfd2304d449b290ec7ef73245d, type: 3}
+  m_Name: Blank Card
+  m_EditorClassIdentifier: 
+  num: 0
+  img: {fileID: 21300000, guid: cb7eae9345a5c5149857c8deb927e77f, type: 3}
+  shuffle: 0
+  remove: 0

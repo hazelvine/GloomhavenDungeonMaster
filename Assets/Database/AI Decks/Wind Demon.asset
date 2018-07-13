@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Wind Demon
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 8841b84e56dfceb408b5d62e45240fb0, type: 2}
+  - {fileID: 11400000, guid: cb125abfe590d0847a43fdbbbc8bd176, type: 2}
+  - {fileID: 11400000, guid: 52d985cb19b1a934382a1cb57c386202, type: 2}
+  - {fileID: 11400000, guid: 9d1dddf824a8de24f8e01e83f9743bf7, type: 2}
+  - {fileID: 11400000, guid: 5f88dcdf73ce817499a3bb3112258619, type: 2}
+  - {fileID: 11400000, guid: 1c361757b6557ef49a95e314555c466b, type: 2}
+  - {fileID: 11400000, guid: 1fe95cb54cae4ea4090b9afa73fa3244, type: 2}
+  - {fileID: 11400000, guid: 5db8e600ff438eb4dbb035128a712d68, type: 2}

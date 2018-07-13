@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Shaman
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 127ffeb5ad71fe64c86c2719f12f517d, type: 2}
+  - {fileID: 11400000, guid: fdf33a6603048b84c90aa69e274bd00d, type: 2}
+  - {fileID: 11400000, guid: c11c6d862429cdb4ab3b17bd92ec2316, type: 2}
+  - {fileID: 11400000, guid: f714f94a928249f47bc29789d3b72a42, type: 2}
+  - {fileID: 11400000, guid: 59a66dd3ef36685479df347b2a601062, type: 2}
+  - {fileID: 11400000, guid: 94cb7e6f6e9050d40b50b66dc430a403, type: 2}
+  - {fileID: 11400000, guid: 2270400a5afe6f54eaf4029567a61420, type: 2}
+  - {fileID: 11400000, guid: dbdcbdfa631dcfc4ebcab635ceb85493, type: 2}

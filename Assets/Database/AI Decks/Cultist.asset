@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Cultist
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 6a0d0a86f34ee814fbaf0e32f869d2ad, type: 2}
+  - {fileID: 11400000, guid: 822b8e4a9fd0fce45801dc4f98948032, type: 2}
+  - {fileID: 11400000, guid: 71feeed0c566bea419ec5f8183737b96, type: 2}
+  - {fileID: 11400000, guid: 59c037a11aafe814ebc3eeceb32ec26c, type: 2}
+  - {fileID: 11400000, guid: bed653fb9ca661d4cafa7470a443f4ed, type: 2}
+  - {fileID: 11400000, guid: 7291935d60ab4eb42be20677a11e9dab, type: 2}
+  - {fileID: 11400000, guid: a43e3c84520a3304aaecbcc6cdffb409, type: 2}
+  - {fileID: 11400000, guid: 698293c0ec42d7c4db3b59e8c347d41f, type: 2}

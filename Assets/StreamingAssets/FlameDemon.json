@@ -1,0 +1,158 @@
+{
+	"name": "Flame Demon",
+	"canFly":true,
+"level": [
+        {
+          "level": 0,
+          "statGroup":[{ "type":"normal",
+            "health": 2,
+            "move": 3,
+            "attack": 2,
+            "range": 3,
+			"shield":2
+          },{ "type":"elite",
+            "health": 3,
+            "move": 3,
+            "attack": 2,
+            "range": 3,
+			"shield":3
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[{ "type":"normal",
+            "health": 2,
+            "move": 3,
+            "attack": 2,
+            "range": 3,
+			"shield":3
+          },{ "type":"elite",
+            "health": 3,
+            "move": 3,
+            "attack": 2,
+            "range": 4,
+            "retaliate":2,
+			"retaliateRange":2,
+			"shield":4
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[{ "type":"normal",
+            "health": 3,
+            "move": 3,
+            "attack": 3,
+            "range": 3,
+			"shield":3
+          },{ "type":"elite",
+            "health": 4,
+            "move": 3,
+            "attack": 3,
+            "range": 4,
+            "retaliate":3,
+			"retaliateRange":2,
+			"shield":4
+          }]
+        },
+        {
+          "level": 3,
+          "statGroup":[{ "type":"normal",
+            "health": 3,
+            "move": 3,
+            "attack": 3,
+            "range": 4,
+            "retaliate":2,
+			"retaliateRange":2,
+			"shield":3
+          },{ "type":"elite",
+            "health": 5,
+            "move": 3,
+            "attack": 3,
+            "range": 5,
+            "retaliate":3,
+			"retaliateRange":3,
+			"shield":4
+          }]
+        },
+        {
+          "level": 4,
+          "statGroup":[{ "type":"normal",
+            "health": 3,
+            "move": 4,
+            "attack": 3,
+            "range": 4,
+            "retaliate":3,
+			"retaliateRange":2,
+			"shield":3
+          },{ "type":"elite",
+            "health": 5,
+            "move": 4,
+            "attack": 4,
+            "range": 5,
+            "retaliate":4,
+			"retaliateRange":3,
+			"shield":4
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[{ "type":"normal",
+            "health": 4,
+            "move": 4,
+            "attack": 3,
+            "range": 4,
+            "retaliate":3,
+			"retaliateRange":2,
+			"shield":4
+          },{ "type":"elite",
+            "health": 6,
+            "move": 4,
+            "attack": 4,
+            "range": 5,
+            "retaliate":4,
+			"retaliateRange":3,
+			"shield":5
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[{ "type":"normal",
+            "health": 4,
+            "move": 4,
+            "attack": 4,
+            "range": 4,
+            "retaliate":4,
+			"retaliateRange":2,
+			"shield":4
+          },{ "type":"elite",
+            "health": 7,
+            "move": 4,
+            "attack": 5,
+            "range": 5,
+            "retaliate":5,
+			"retaliateRange":3,
+			"shield":5
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[{ "type":"normal",
+            "health": 5,
+            "move": 4,
+            "attack": 4,
+            "range": 5,
+            "retaliate":4,
+			"retaliateRange":3,
+			"shield":4
+          },{ "type":"elite",
+            "health": 8,
+            "move": 4,
+            "attack": 5,
+            "range": 6,
+            "retaliate":5,
+			"retaliateRange":4,
+			"shield":5
+          }]
+        }
+      ]
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Frost Demon
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 8d41d07fb491ec345a0484f7a2ed0042, type: 2}
+  - {fileID: 11400000, guid: 6a20c3a458681c04b847344dbbf238c3, type: 2}
+  - {fileID: 11400000, guid: 31558a193d161074ca465bd83ccadea3, type: 2}
+  - {fileID: 11400000, guid: c4168aaf9c98a1148aa11b7ace3bc03d, type: 2}
+  - {fileID: 11400000, guid: 0a5a6b748f879194da61a74b060eaa5a, type: 2}
+  - {fileID: 11400000, guid: c74b3cf06ecde7242ab87eeec18a1b53, type: 2}
+  - {fileID: 11400000, guid: 88449f4c6b2f6e64d99840928c64cf01, type: 2}
+  - {fileID: 11400000, guid: dec76ef35918e9c429907bb58fa9c2b2, type: 2}

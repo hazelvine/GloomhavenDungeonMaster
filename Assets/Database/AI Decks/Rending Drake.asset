@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Rending Drake
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 6fce06cc5bcd51c4b829e111f4693234, type: 2}
+  - {fileID: 11400000, guid: 9fd97ba0931ed9c4594f0f9f09fb30ab, type: 2}
+  - {fileID: 11400000, guid: 6b68d980258df124aae75f7b80b01599, type: 2}
+  - {fileID: 11400000, guid: 0b4a1ca5f759cdb41907ae4811229f8b, type: 2}
+  - {fileID: 11400000, guid: ab471bb98d3902740a057df127b7a4f6, type: 2}
+  - {fileID: 11400000, guid: 10fef38fa1af8e148a883659926f06ee, type: 2}
+  - {fileID: 11400000, guid: 97c3148742672924681a7f7b3e8e1f80, type: 2}
+  - {fileID: 11400000, guid: 0f7bc7d72e194024e82da22b0d1c8790, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Living Spirit
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: d46ecb949b7588047bd450a37a910177, type: 2}
+  - {fileID: 11400000, guid: fc564eb6ec42f5a46b1ffee3e2587fd7, type: 2}
+  - {fileID: 11400000, guid: e044751c216a14a4c8691108fe8d7915, type: 2}
+  - {fileID: 11400000, guid: 0139db95da898f74190659d605fcc8ed, type: 2}
+  - {fileID: 11400000, guid: e317995d36ee31e479de22c40ccbd4d6, type: 2}
+  - {fileID: 11400000, guid: 80e0f6fa976c3d94eb0a35533ad8427a, type: 2}
+  - {fileID: 11400000, guid: ec7567669e38c71419af6b064d560131, type: 2}
+  - {fileID: 11400000, guid: 5f82c669003b7dc4b86cc2fa1418671c, type: 2}

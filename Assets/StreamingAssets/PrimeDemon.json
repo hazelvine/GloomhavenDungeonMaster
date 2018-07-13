@@ -1,0 +1,152 @@
+{
+
+	"name": "Prime Demon",
+	"isBoss": true,
+	"immunity":{"poison":true, "disarm":true, "wound":true, "muddle":true, "immobilize":true, "stun":true},
+	"level": [
+        {
+          "level": 0,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 8,
+            "move": 3,
+            "attack": 4,
+            "range": 0
+          },
+		  {
+			"type":"elite",
+            "health": 8,
+            "move": 3,
+            "attack": 4,
+            "range": 0
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 9,
+            "move": 4,
+            "attack": 4,
+            "range": 0
+          },
+		  {
+			"type":"elite",
+            "health": 9,
+            "move": 4,
+            "attack": 4,
+            "range": 0
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 10,
+            "move": 4,
+            "attack": 5,
+            "range": 0
+          },
+		  {
+			"type":"elite",
+            "health": 10,
+            "move": 4,
+            "attack": 5,
+            "range": 0
+          }]
+        },
+        {
+          "level": 3,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 12,
+            "move": 4,
+            "attack": 6,
+            "range": 0
+         },
+		 {
+			"type":"elite",
+            "health": 12,
+            "move": 4,
+            "attack": 6,
+            "range": 0
+         }]
+        },
+        {
+          "level": 4,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 14,
+            "move": 5,
+            "attack": 6,
+            "range": 0
+          },
+		  {
+			"type":"elite",
+            "health": 14,
+            "move": 5,
+            "attack": 6,
+            "range": 0
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[
+		{
+			"type":"normal",
+            "health": 16,
+            "move": 5,
+            "attack": 7,
+            "range": 0
+          },
+		  {
+			"type":"elite",
+            "health": 16,
+            "move": 5,
+            "attack": 7,
+            "range": 0
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 20,
+            "move": 5,
+            "attack": 7,
+            "range": 0
+          },
+		  {
+		"type":"elite",
+            "health": 20,
+            "move": 5,
+            "attack": 7,
+            "range": 0
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 22,
+            "move": 5,
+            "attack": 8,
+            "range": 0
+         },
+		 {
+		"type":"elite",
+            "health": 22,
+            "move": 5,
+            "attack": 8,
+            "range": 0
+         }]
+        }
+      ]
+}

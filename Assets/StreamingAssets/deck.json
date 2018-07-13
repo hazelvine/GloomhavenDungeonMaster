@@ -1,0 +1,731 @@
+{
+	"deck": [
+	{ 
+		"name": "Hail"
+		, "cards":
+            [ {"shuffle":true, "initiative":99, "line":[{"name":"move", "mod":0}, {"name":"text", "label":"Move towards the altar."} ]}
+            ]
+        },
+		{
+			"name":"Orchid"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"move", "mod":0}, {"name":"text", "label":"Will open doors and spring traps if necessary."} ]}
+			]
+		},
+		{
+			"name":"Orchid Captive"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"text", "label":"They do nothing."}, {"name":"text", "label":"If any character is adjacent to a captive Orchid, they may forgo an action to free the captive, immediately removing them from the map."} ]}
+			]
+		},
+		{
+			"name":"Captive Orchid"
+			, "cards":
+			[ { "shuffle": true, "initiative":50, "line":[{"name":"text", "label":"Return to his starting location"}, {"name":"attack", "mod":0}, {"name":"text", "label":"Target all adjacent enemies."} ]}
+			]
+		},
+		{
+			"name":"Fish"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			]
+		},
+		{
+			"name":"Redthorn"
+			, "cards":
+			[ { "shuffle": true, "initiative":1, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0, "range":0}, {"name":"text", "label":"For each captive Freed, Redthorn adds +1 Attack to all his attacks."} ]}
+			]
+		},
+		{
+			"name":"Villager"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"move", "mod":0}, {"name":"text", "label":"Move toward the end of the docks (b)"} ]}
+			]
+		},
+		{ 
+		"name": "Ancient Artillery"
+		, "cards":
+            [ {"shuffle":false, "initiative":46, "line":[{"name":"attack", "mod":-1, "range": 2}]}
+            , {"shuffle":true,  "initiative":71, "line":[{"name":"attack", "mod": 0, "range": 0}, {"name":"text", "label": "All adjacent enemies suffer 2 damage"}]}
+            , {"shuffle":true,  "initiative":71, "line":[{"name":"attack", "mod":0, "range":0}, {"name":"text", "label": "All adjacent enemies suffer 2 damage"}]}
+            , {"shuffle":false, "initiative":37, "line":[{"name":"push", "mod": 1}, {"name":"text", "label":"Target all adjacent enemies"}, {"name":"attack", "mod":-1, "range":-1, "aoe":"aoe-triangle-2-side"}, {"name":"text", "label":"Attack using area of effect (A)."} ]}
+            , {"shuffle":false, "initiative":37, "line":[{"name":"push", "mod": 1}, {"name":"text", "label":"Target all adjacent enemies"}, {"name":"attack", "mod":-1, "range":-1, "aoe":"aoe-circle"}, {"name":"text", "label":"Attack using area of effect (A)."} ]}
+            , {"shuffle":false, "initiative":17, "line":[{"name":"push", "mod": 2}, {"name":"text", "label":"Target all adjacent enemies"}, {"name":"shield", "mod":2}, {"name":"attack", "mod":-2, "range":0 }]}
+            , {"shuffle":false, "initiative":95, "line":[{"name":"attack", "mod": 1, "range":0}]}
+            , {"shuffle":false, "initiative":46, "line":[{"name":"attack", "mod":-1, "range":0, "aoe":"aoe-triangle-2-side", "immobilize":true}]}
+            ]
+        },
+		{
+			"name":"Altar"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"text", "label":"For each altar that isn't destroyed, regardless of whether it has been revealed, the maximum hit point and attack values of all demons is increased by 1 and their movement and range values are increased by 0.5 (rounded up). Melee attacks do not increase in range."},{"name":"text", "label":"**********************"},{"name":"text", "label":"Note: These stats are not pre-calculated for the monsters!"}]}
+			]
+		},
+		{
+		  "name": "Arcane Golem"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":72, "line":[{"name":"attack", "mod":1, "range":3}, {"name":"text", "label":"Stone Golem suffers 2 damage."}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."} ]}
+			  , {"shuffle":true, "initiative":90, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."} ]}
+			  , {"shuffle":false, "initiative":83, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":-1}, {"name":"text", "label":"Target all adjacent enemies"}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."} ]}
+			  , {"shuffle":false, "initiative":28, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-2, "range":3, "pull":2, "immobilize":true}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."} ]}
+			  , {"shuffle":false, "initiative":11, "line":[{"name":"retaliate", "mod":3, "range":3}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."} ]}
+			  , {"shuffle":false, "initiative":28, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":0}, {"name":"text", "label":"Stone Golem suffers 1 damage."}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."} ]}
+			  , {"shuffle":true, "initiative":51, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."} ]}
+			  , {"shuffle":false, "initiative":65, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"The Arcane Golem cannot enter or pass through door 2."}]}
+			  ]
+		},
+        { "name": "Archer"
+        , "cards":
+            [ {"shuffle":false, "initiative":16, "line":[{"name":"move", "mod": 1}, {"name":	"attack", "mod":  -1,	"range": 0	}]}
+            , {"shuffle":false, "initiative":31, "line":[{"name":"move", "mod": 0}, {"name":	"attack", "mod":  0,	"range": 0		}]}
+            , {"shuffle":false, "initiative":32, "line":[{"name":"move", "mod": 0}, {"name":	"attack", "mod":  1,	"range":-1		}]}
+            , {"shuffle":false, "initiative":44, "line":[{"name":"move", "mod":-1}, {"name":	"attack", "mod":  1,	"range": 0		}]}
+            , {"shuffle":false, "initiative":56, "line":[{"name":"attack", "mod":-1,	"range": 0,		"target": 2		}]}
+            , {"shuffle":true,  "initiative":68, "line":[{"name":"attack", "mod":1,		"range": 1						}]}
+            , {"shuffle":false, "initiative":14, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":-1, "range":0}, {"name":"text", "label":"Create a 3 damage trap in an adjacent empty hex closest to an enemy."} ]}
+            , {"shuffle":true,  "initiative":29, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":-1, "range":1, "immobilize":true}]}
+            ]
+        },		
+		{
+			"name":"Bone Pile"
+			, "cards":
+			[ { "shuffle": true, "initiative":0, "line":[{"name":"text", "label":"Special1"}, {"name":"text", "label":"**********************"}, {"name":"text", "label":"Note: These stats are not pre-calculated for the monster!"}]}
+			]
+		},
+		{ "name": "Boss"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"text", "label":"Special 1"} ]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text", "label":"Special 2"} ]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"text", "label":"Special 1"} ]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text", "label":"Special 2"} ]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"text", "label":"Special 1"} ]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text", "label":"Special 2"} ]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{
+		   "name": "Bandit Commander"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"text", "label":"Move to the next door and reveal the room."} ]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text", "label":"Summon a Living Bone"} ]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"text", "label":"Move to the next door and reveal the room."} ]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text", "label":"Summon a Living Bone"} ]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"text", "label":"Move to the next door and reveal the room."} ]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text", "label":"Summon a Living Bone"} ]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{ "name": "Cave Bear"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":41, "line":[{"name":"move",   "mod": 0 }, {"name":"attack", "mod": 0} ]}
+			  , {"shuffle":false, "initiative":60, "line":[{"name":"move",   "mod": -1}, {"name":"attack", "mod": 1} ]}
+			  , {"shuffle":true,  "initiative":80, "line":[{"name":"attack", "mod": -1}, {"name":"move",   "mod": -2}, {"name":"attack", "mod": -1, "wound":true} ]}
+			  , {"shuffle":false, "initiative":61, "line":[{"name":"move",   "mod": 0 }, {"name":"attack", "mod": -1, "target": 2} ]}
+			  , {"shuffle":false, "initiative":3, "line":[{"name":"shield", "mod": 1 }, {"name":"retaliate", "mod": 2}, {"name":"heal", "mod": 2, "range": 0} ]}
+			  , {"shuffle":false, "initiative":14, "line":[{"name":"move",   "mod": -1}, {"name":"attack", "mod": -1, "immobilize":true} ]}
+			  , {"shuffle":true,  "initiative":34, "line":[{"name":"attack", "mod": 1,   "wound":true} ]}
+			  , {"shuffle":false, "initiative":13, "line":[{"name":"move",   "mod": 1 }, {"name":"attack", "mod": -1} ]}
+			  ]
+		},
+		{
+		   "name": "Captain of the Guard"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"heal","mod":2, "range":-1},{"name":"text","label":"Affect self and all allies"}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text","label":"All allies add +1 Attack to all attacks this round"},{"name":"attack","mod":1}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"heal","mod":2, "range":-1},{"name":"text","label":"Affect self and all allies"}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text","label":"All allies add +1 Attack to all attacks this round"},{"name":"attack","mod":1}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"heal","mod":2, "range":-1},{"name":"text","label":"Affect self and all allies"}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text","label":"All allies add +1 Attack to all attacks this round"},{"name":"attack","mod":1}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{
+		   "name": "Chord"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":0,  "line":[{"name":"text", "label":"While the following Chords are unbroken, apply the following:"}, {"name":"text","label":"1: All monsters add +1 attack to all their attacks."}, {"name":"text","label":"2: All monster gain Advantage on all their attacks."}, {"name":"text","label":"3: All monsters heal 1 hit point at the start of each of their turns."}, {"name":"text","label":"4: All char. and char. summons suffer 1 damage at the start of each of their turn."}, {"name":"text","label":"5: All char. and char. summons gain Disadvantage on all their attacks."}, {"name":"text","label":"6: All char. and char. summons deduct -1 Attack from all their attacks."}]}
+			   ]
+		},
+		{ "name": "Cultist"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":10, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1}, {"name":"text", "label": "On death:"}, {"name":"attack", "mod": 2, "aoe":"aoe-circle-with-middle-black"}, {"name":"text", "label":"Attack using area of effect (A)."}   ]}
+			  , {"shuffle":true, "initiative":63, "line":[{"name":"text", "label":"Summon normal Living Bones"}, {"name":"text", "label":"Cultist suffers 2 damage."} ]}
+			  , {"shuffle":false, "initiative":31, "line":[{"name":"move", "mod": -1}, {"name":"heal", "mod": 3, "range":3} ]}
+			  , {"shuffle":false, "initiative":27, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			  , {"shuffle":false, "initiative":39, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod": 0}, {"name":"heal", "mod": 1, "range": 0} ]}
+			  , {"shuffle":true, "initiative":63, "line":[{"name":"text", "label":"Summon normal Living Bones"}, {"name":"text", "label":"Cultist suffers 2 damage."} ]}
+			  , {"shuffle":false, "initiative":27, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			  , {"shuffle":false, "initiative":10, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1}, {"name":"text", "label": "On death:"}, {"name":"attack", "mod": 2, "aoe":"aoe-circle-with-middle-black"}, {"name":"text", "label":"Attack using area of effect (A)."}   ]}
+			  ]
+		},
+		{ "name": "Escort Cultist"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":10, "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  , {"shuffle":true, "initiative":63,  "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  , {"shuffle":false, "initiative":31, "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  , {"shuffle":false, "initiative":27, "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  , {"shuffle":false, "initiative":39, "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  , {"shuffle":true, "initiative":63,  "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  , {"shuffle":false, "initiative":27, "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  , {"shuffle":false, "initiative":10, "line":[{"name":"move", "mod": 0}, {"name":"text", "label":"Escort Cultists can open doors."}]}
+			  ]
+		},
+		{ "name": "Sin-Ra Cultist"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":10, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1}, {"name":"text", "label": "On death:"}, {"name":"attack", "mod": 2, "aoe":"aoe-circle-with-middle-black"}, {"name":"text", "label":"Attack using area of effect (A)."}   ]}
+			  , {"shuffle":true, "initiative":63, "line":[{"name":"text", "label":"Summon elite Giant Viper"}, {"name":"text", "label":"Cultist suffers 2 damage."} ]}
+			  , {"shuffle":false, "initiative":31, "line":[{"name":"move", "mod": -1}, {"name":"heal", "mod": 3, "range":3} ]}
+			  , {"shuffle":false, "initiative":27, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			  , {"shuffle":false, "initiative":39, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod": 0}, {"name":"heal", "mod": 1, "range": 0} ]}
+			  , {"shuffle":true, "initiative":63, "line":[{"name":"text", "label":"Summon elite Giant Viper"}, {"name":"text", "label":"Cultist suffers 2 damage."} ]}
+			  , {"shuffle":false, "initiative":27, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			  , {"shuffle":false, "initiative":10, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1}, {"name":"text", "label": "On death:"}, {"name":"attack", "mod": 2, "aoe":"aoe-circle-with-middle-black"}, {"name":"text", "label":"Attack using area of effect (A)."}   ]}
+			  ]
+		},
+		{
+		   "name": "Crystal"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":0,  "line":[{"name":"text", "label":"The Crystal is prioritized by monsters."}, {"name":"text","label":"It cannot be healed and is not considered an ally."}, {"name":"text","label":"Twice during a scenario, any character may lose one card from their hand to have it suffer no damage instead."}, {"name":"text","label":"(You can use 2 condition tokens to denote this)"}]}
+			   ]
+		},
+		{
+		   "name": "Dark Rider"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"move","mod":2},{"name":"attack","mod":0},{"name":"text","label":"    X = Hexes moved"}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"move","mod":0},{"name":"text","label":"Special2"},{"name":"attack","mod":-1},{"name":"text","label":"    X = Hexes moved"}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"move","mod":2},{"name":"attack","mod":0},{"name":"text","label":"    X = Hexes moved"}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"move","mod":0},{"name":"text","label":"Special2"},{"name":"attack","mod":-1},{"name":"text","label":"    X = Hexes moved"}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"move","mod":2},{"name":"attack","mod":0},{"name":"text","label":"    X = Hexes moved"}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"move","mod":0},{"name":"text","label":"Special2"},{"name":"attack","mod":-1},{"name":"text","label":"    X = Hexes moved"}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2},{"name":"text","label":"    X = Hexes moved"} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0},{"name":"text","label":"    X = Hexes moved"} ]}
+			   ]
+		},
+		{ "name": "Deep Terror"
+        , "cards":
+			[ {"shuffle":false, "initiative":65, "line":[{"name":"attack", "mod": 0, "range":3, "target":3, "curse":true} ]}
+			, {"shuffle":true, "initiative":60, "line":[{"name":"attack", "mod": 0, "range":-5, "aoe":"aoe-line-6-with-black", "pierce":3}, {"name":"text", "label":"Attack using area of effect (A)."}  ]}
+			, {"shuffle":true, "initiative":60, "line":[{"name":"attack", "mod": 0, "range":-5, "aoe":"aoe-line-6-with-black", "pierce":3}, {"name":"text", "label":"Attack using area of effect (A)."}  ]}
+			, {"shuffle":false, "initiative":84, "line":[{"name":"attack", "mod": -1}, {"name":"text", "label":"Target all adjacent enemies."}, {"name":"attack", "mod":0, "range":4, "wound":true} ]}
+			, {"shuffle":false, "initiative":75, "line":[{"name":"attack", "mod": 0, "poison":true}, {"name":"attack", "mod":-1, "range":5, "immobilize":true} ]}
+			, {"shuffle":false, "initiative":75, "line":[{"name":"attack", "mod": -2, "disarm":true}, {"name":"text", "label":"Target all adjacent enemies."}, {"name":"attack", "mod":0, "range":3, "target":2} ]}
+			, {"shuffle":false, "initiative":96, "line":[{"name":"attack", "mod": -2, "range":6}, {"name":"text", "label":"Summon normal Deep Terror in a  hex adjacent to the target."} ]}
+			, {"shuffle":false, "initiative":54, "line":[{"name":"wound"},{"name":"text", "label":"Target all adjacent enemies."}, {"name":"poison"}, {"name":"text", "label":"Target all adjacent enemies."}, {"name":"attack", "mod":0, "range":4} ]}
+            ]
+        },
+		{
+		   "name": "Door"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":99,  "line":[{"name":"text", "label":"Only exist for the purpose of health tracking."}]}
+			   ]
+		},
+		{
+			"name":"Earth Demon"
+			, "cards":
+				[{"shuffle":true,"initiative":40,"line":[{"name":"heal","mod":3,"range":0},{"name":"convertElementToAction","element":"earth","action":"immobilize"}, {"name":"text","label":"Target all enemies within Range 3."}]}
+				,{"shuffle":true,"initiative":42,"line":[{"name":"move","mod":1},{"name":"attack","mod":-1}]}
+				,{"shuffle":false,"initiative":62,"line":[{"name":"move","mod":0},{"name":"attack","mod":0},{"name":"createElement","element":"earth"}]}
+				,{"shuffle":false,"initiative":71,"line":[{"name":"attack","mod":0,"range":4},{"name":"convertElementToAction","element":"earth","action":"target2"}]}
+				,{"shuffle":false,"initiative":83,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1},{"name":"createElement","element":"earth"}]}
+				,{"shuffle":false,"initiative":93,"line":[{"name":"move","mod":-1},{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"},{"name":"convertElementToAction","element":"earth","action":"push1"}]}
+				,{"shuffle":false,"initiative":79,"line":[{"name":"move","mod":1},{"name":"attack","mod":0},{"name":"convertElementToAction","element":"air","action":"attackBuff","mod":-2}]}
+				,{"shuffle":false,"initiative":87,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1, "range":-5, "aoe":"aoe-4-with-black"},{"name":"text", "label":"Attack using area of effect (A)."}, {"name":"convertElementToAction","element":"any","action":"element","toElement":"earth"}]}
+				]
+		},
+		{
+		   "name": "Elder Drake"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"attack","mod":0, "aoe":"elderDrake"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":true, "initiative":17, "line":[		{"name":"text", "label":"Summon 2 Zephyrs."}, {"name":"text","label":"(Represented by numbered tokens)"}, {"name":"text","label":"Then, fly to the next perch of boulders in order of a, b, c, and then back to a."}, {"name":"text", "label":"*********************"},  {"name":"text", "label":"Note: There is only 1 Zephyr creature in the Grimoire given that cannot be damaged in any way."}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"attack","mod":0, "aoe":"elderDrake"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":false, "initiative":11, "line":[	{"name":"text", "label":"Summon 2 Zephyrs."}, {"name":"text","label":"(Represented by numbered tokens)"}, {"name":"text","label":"Then, fly to the next perch of boulders in order of a, b, c, and then back to a."}, {"name":"text", "label":"*********************"},  {"name":"text", "label":"Note: There is only 1 Zephyr creature in the Grimoire given that cannot be damaged in any way."}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"attack","mod":0, "aoe":"elderDrake"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":false, "initiative":14, "line":[	 {"name":"text", "label":"Summon 2 Zephyrs."}, {"name":"text","label":"(Represented by numbered tokens)"}, {"name":"text","label":"Then, fly to the next perch of boulders in order of a, b, c, and then back to a."}, {"name":"text", "label":"*********************"}, {"name":"text", "label":"Note: There is only 1 Zephyr creature in the Grimoire given that cannot be damaged in any way."}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"attack", "mod": -1, "range": 3, "target": 2}]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"attack", "mod": 0}]}
+			   ]
+		},
+		{
+		  "name": "Flame Demon"
+		  , "cards":
+			[{"shuffle":false,"initiative":3,"line":[{"name":"move","mod":1},{"name":"attack","mod":-1,"range":0},{"name":"createElement","element":"fire"}]}
+			,{"shuffle":false,"initiative":24,"line":[{"name":"move","mod":0},{"name":"attack","mod":0,"range":0},{"name":"createElement","element":"fire"}]}
+			,{"shuffle":true,"initiative":46,"line":[{"name":"attack","mod":0,"range":0},{"name":"convertElementToAction","element":"fire","action":"text", "label":"Use area of effect (B)."}, {"name":"aoe2", "aoe":"aoe-circle"}]}
+			,{"shuffle":false,"initiative":49,"line":[{"name":"attack","mod":0, "range":-5, "aoe":"aoe-line-3-with-black"}, {"name":"text", "label":"Attack using area of effect (A)."}, {"name":"convertElementToAction","element":"fire","action":"attackBuff","mod":1,"wound":true}]}
+			,{"shuffle":false,"initiative":67,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1,"range":-1},{"name":"createElement","element":"fire"}]}
+			,{"shuffle":false,"initiative":77,"line":[{"name":"attack","mod":0},{"name":"text","label":"Target all adjacent enemies"},{"name":"convertElementToAction","element":"frost","action":"text","label":"Flame Demon suffers 1 damage."}]}
+			,{"shuffle":true,"initiative":30,"line":[{"name":"convertElementToAction","element":"fire","action":"text","label":"All adjacent enemies suffer 2 damage."},{"name":"move","mod":0},{"name":"attack", "mod":-2,"target":2, "wound":true}]}
+			,{"shuffle":false,"initiative":8,"line":[{"name":"move","mod":-1},{"name":"text","label":"Create a 4 damage trap in an adjacent empty hex closest to an enemy."},{"name":"convertElementToAction","element":"any","action":"element","toElement":"fire"}]}
+		  ]
+		},
+		{ "name": "Frost Demon"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":18,  "line":[{"name":"immobilize"},       {"name":"text", "label": "Target all enemies within Range 2"}, {"name":"convertElementToAction", "element":"frost", "action":"heal", "mod":3, "range":0}  ]}
+			  , {"shuffle":false, "initiative":38,  "line":[{"name":"move", "mod": 1},   {"name":"attack", "mod":-1 }  ]}
+			  , {"shuffle":false, "initiative":58,  "line":[{"name":"move", "mod": 0},   {"name":"attack", "mod":0  } ]}
+			  , {"shuffle":false,  "initiative":58, "line":[{"name":"move", "mod":-1},   {"name":"attack", "mod":0, "range":2}, {"name":"convertElementToAction", "element":"frost", "action":"attackBuff", "mod":2, "range":1} ]}
+			  , {"shuffle":true,   "initiative":78, "line":[{"name":"move", "mod":-1},   {"name":"attack", "mod":0, "aoe":"aoe-triangle-2-side-with-black"}, {"name":"text", "label":"Attack using area of effect (A)."}, {"name":"createElement", "element":"frost"} ]}
+			  , {"shuffle":true,   "initiative":78, "line":[{"name":"move", "mod":-1},   {"name":"attack", "mod":0, "aoe":"aoe-triangle-2-side-with-black"}, {"name":"text", "label":"Attack using area of effect (A)."}, {"name":"createElement", "element":"frost"} ]}
+		      , {"shuffle":false, "initiative":58,  "line":[{"name":"move", "mod":-1},   {"name":"attack", "mod":-1, "pierce":3}, {"name":"convertElementToAction", "element":"any", "action":"element", "toElement":"frost" } ]}
+			  , {"shuffle":false, "initiative":18,   "line":[{"name":"shield", "mod":2}, {"name":"move",   "mod":1 }, {"name":"convertElementToAction", "element":"fire", "action":"text", "label":"Frost Demon suffers 1 damage."} ]}
+			  ]          
+		},
+		{
+		   "name": "Gate"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":99,  "line":[{"name":"text", "label":"Special1a"}, {"name":"text","label":"Special1"}, {"name":"text","label":"Spawn in order a, b, c, d, and back to a."}, {"name":"text","label":"a : Flame Demon"},{"name":"text","label":"b : Earth Demon"},{"name":"text","label":"c : Frost Demon"},{"name":"text","label":"d : Wind Demon"}, {"name":"text","label":"************************"}, {"name":"text","label":"At the end of the 8th round the door is automatically destroyed."}]}
+			   ]
+		},
+		{
+		"name": "Giant Ooze"
+		, "cards":
+				[ {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."}]}
+				, {"shuffle":false, "initiative":57, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."} ]}
+				, {"shuffle":false, "initiative":59, "line":[{"name":"attack", "mod":0, "target":2, "poison":true}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."} ]}
+				, {"shuffle":false, "initiative":66, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1, "range":1}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."} ]}
+				, {"shuffle":true, "initiative":94, "line":[{"name":"text", "label":"Ooze suffers 2 damage"}, {"name":"text", "label":"Summon normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)"}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."} ]}
+				, {"shuffle":true, "initiative":94, "line":[{"name":"text", "label":"Ooze suffers 2 damage"}, {"name":"text", "label":"Summon normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)"}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."} ]}
+				, {"shuffle":false, "initiative":66, "line":[{"name":"move", "mod":-1}, {"name":"loot", "range":1}, {"name":"heal", "mod":2, "range":0}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."} ]}
+				, {"shuffle":false, "initiative":85, "line":[{"name":"push", "mod":1, "poison":true, "label":"Target all adjacent enemies"}, {"name":"attack", "mod":1, "range":-1}, {"name":"text", "label":"For each token, the Giant Ooze gains 2 Shield."}, {"name":"text", "label":"One token is removed every time any Oozes dies."} ]}
+				]
+		},
+		{ "name": "Giant Viper"
+		, "cards":
+			  [ {"shuffle":false, "initiative":23, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":-1, "immobilize":true}, {"name":"attack", "mod":-1} ]}
+			  , {"shuffle":false, "initiative":58, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1} ]}
+			  , {"shuffle":false, "initiative":43, "line":[{"name":"move", "mod":1, "jump":true}, {"name":"attack", "mod":-1}, {"name":"text", "label":"Target all adjacent enemies"} ]}
+			  , {"shuffle":true, "initiative":32, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"Add +2 Attack if the target is adjacent to any of the Giant Viper's allies"} ]}
+			  , {"shuffle":false, "initiative":58, "line":[{"name":"move", "mod":1, "jump":true}, {"name":"attack", "mod":-1}, {"name":"text", "label":"All attacks targeting Giant Viper this round gain Disadvantage."} ]}
+			  , {"shuffle":false, "initiative":43, "line":[{"name":"move", "mod":-1, "jump":true}, {"name":"attack", "mod":0, "target":2} ]}
+			  , {"shuffle":false, "initiative":11, "line":[{"name":"shield", "mod":1}, {"name":"attack", "mod":-1} ]}
+			  , {"shuffle":true, "initiative":32, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"Add +2 Attack if the target is adjacent to any of the Giant Viper's allies."} ]}
+			  ]
+		},
+		{ "name": "Guard"
+        , "cards":
+            [ {"shuffle":true, "initiative":15, "line":[{"name":"shield", "mod":1}, {"name":"retaliate", "mod":2}]}
+			, {"shuffle":false, "initiative":30, "line":[{"name":"move", "mod": 1},   {"name":"attack", "mod":-1 }  ]}
+			, {"shuffle":false, "initiative":35, "line":[{"name":"move", "mod": -1},   {"name":"attack", "mod":0, "range":2}  ]}
+			, {"shuffle":false, "initiative":50, "line":[{"name":"move", "mod": 0},   {"name":"attack", "mod":0 }  ]}
+			, {"shuffle":false, "initiative":50, "line":[{"name":"move", "mod": 0},   {"name":"attack", "mod":0 }  ]}
+			, {"shuffle":false, "initiative":70, "line":[{"name":"move", "mod": -1},   {"name":"attack", "mod":1 }  ]}
+            , {"shuffle":false, "initiative":55, "line":[{"name":"move", "mod": -1},   {"name":"attack", "mod":0}, {"name":"strengthen", "range":0 }  ]}
+			, {"shuffle":true, "initiative":15, "line":[{"name":"shield", "mod": 1},   {"name":"attack", "mod":0, "poison":true}  ]}
+            ]
+        },
+		{
+		  "name":"Harrower Infester"
+		  , "cards":
+			[{"shuffle":false,"initiative":38,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1,"target":2}]}
+			,{"shuffle":false,"initiative":7,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1,"poison":true},{"name":"createElement","element":"night"}]}
+			,{"shuffle":false,"initiative":16,"line":[{"name":"move","mod":-1},{"name":"attack","mod":-1},{"name":"heal","mod":5,"range":0}]}
+			,{"shuffle":false,"initiative":16,"line":[{"name":"attack","mod":2,"immobilize":true},{"name":"retaliate","mod":2}]}
+			,{"shuffle":true,"initiative":2,"line":[{"name":"shield","mod":2},{"name":"retaliate","mod":2,"range":3}]}
+			,{"shuffle":false,"initiative":30,"line":[{"name":"move","mod":-1},{"name":"attack","mod":0,"aoe":"aoe-line-4-with-black"}, {"name":"text", "label":"Attack using area of effect (A)."}, {"name":"convertElementToAction","element":"night","action":"text","label":"Perform 'Heal 2 (self)' for each target damaged"}]}
+			,{"shuffle":false,"initiative":38,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1,"target":2},{"name":"convertElementToAction","element":"night","action":"attackBuff","mod":2,"disarm":true}]}
+			,{"shuffle":true,"initiative":7,"line":[{"name":"attack","mod":-1,"range":3,"muddle":true},{"name":"heal","mod":4,"range":0}]}
+			]
+		},
+		{
+		"name": "Hound"
+		, "cards":
+			  [ {"shuffle":false, "initiative":26, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  , {"shuffle":true, "initiative":19, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"Add +2 Attack if the target is adjacent to any of the Hound's allies."} ]}
+			  , {"shuffle":false, "initiative":7, "line":[{"name":"move", "mod":0}, {"name":"muddle"}, {"name":"text", "label":"Target all adjacent enemies"} ]}
+			  , {"shuffle":false, "initiative":26, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  , {"shuffle":false, "initiative":6, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":0, "immobilize":true} ]}
+			  , {"shuffle":true, "initiative":19, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"Add +2 Attack if the target is adjacent to any of the Hound's allies."} ]}
+			  , {"shuffle":false, "initiative":83, "line":[{"name":"move", "mod":-2}, {"name":"attack", "mod":1} ]}
+			  , {"shuffle":false, "initiative":72, "line":[{"name":"attack", "mod":-1, "pierce":2}, {"name":"move", "mod":-2}, {"name":"attack", "mod":-1, "pierce":2} ]}
+			  ]
+		},
+		{ "name": "Hungry Soul"
+        , "cards":
+			[ {"shuffle":false, "initiative":64, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."}]}
+			, {"shuffle":true, "initiative":20, "line":[{"name":"move", "mod":-2}, {"name":"attack", "mod":0}, {"name":"heal", "mod":2}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."} ]}
+			, {"shuffle":false, "initiative":25, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."} ]}
+			, {"shuffle":false, "initiative":45, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."} ]}
+			, {"shuffle":false, "initiative":45, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."} ]}
+			, {"shuffle":false, "initiative":81, "line":[{"name":"attack", "mod":2}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."} ]}
+			, {"shuffle":false, "initiative":74, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"Target one enemy with all attacks."}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."} ]}
+			, {"shuffle":true, "initiative":12, "line":[{"name":"shield", "mod":1}, {"name":"heal", "mod":2}, {"name":"text", "label":"For every Living Bones present on the map, other than the Hungry Soul, the Hungry Soul reduces it's Shield by 1, to a minimum of 0."} ]}
+			]
+        },		
+		{ "name": "Inox Bodyguard"
+		   , "cards":
+			   [ {"shuffle":true,  "initiative":85, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":-1, "aoe":"aoe-triangle-3-side-with-corner-black"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":true,  "initiative":17, "line":[{"name":"move", "mod":0 }, {"name":"attack", "mod":0 }, {"name":"retaliate", "mod":-1}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":-1, "aoe":"aoe-triangle-3-side-with-corner-black"}, {"name":"text", "label":"Attack using area of effect (A)."} ]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"move", "mod":0 }, {"name":"attack", "mod":0 }, {"name":"retaliate", "mod":-1}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":-1, "aoe":"aoe-triangle-3-side-with-corner-black"}, {"name":"text", "label":"Attack using area of effect (A)."} ]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"move", "mod":0 }, {"name":"attack", "mod":0 }, {"name":"retaliate", "mod":-1}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{
+		  "name": "Imp"
+		  , "cards":
+			  [ {"shuffle":true, "initiative":43, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":-1, "target":2, "poison":true} ]}
+			  , {"shuffle":false, "initiative":5, "line":[{"name":"shield", "mod":5}, {"name":"heal", "mod":1, "range":0} ]}
+			  , {"shuffle":false, "initiative":24, "line":[{"name":"strengthen", "range":-1}, {"name":"text", "label":"Affect all allies within Range 2"}, {"name":"muddle"}, {"name":"text", "label":"Target all enemies within Range 2"} ]}
+			  , {"shuffle":false, "initiative":42, "line":[{"name":"move", "mod":1}, {"name":"heal", "mod":2, "range":3} ]}
+			  , {"shuffle":true, "initiative":43, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":-1, "target":2, "curse":true} ]}
+			  , {"shuffle":false, "initiative":76, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1} ]}
+			  , {"shuffle":false, "initiative":37, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  , {"shuffle":false, "initiative":37, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  ]
+		},
+		{
+		   "name": "Jekserah"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"text","label":"Summon Living Bones"},{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text","label":"Summon Living Corpse"},{"name":"move","mod":-1},{"name":"attack","mod":2}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"text","label":"Summon Living Bones"},{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text","label":"Summon Living Corpse"},{"name":"move","mod":-1},{"name":"attack","mod":2}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"text","label":"Summon Living Bones"},{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text","label":"Summon Living Corpse"},{"name":"move","mod":-1},{"name":"attack","mod":2}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{ "name": "Living Bones"
+        , "cards":
+			[ {"shuffle":false, "initiative":64, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1}]}
+			, {"shuffle":true, "initiative":20, "line":[{"name":"move", "mod":-2}, {"name":"attack", "mod":0}, {"name":"heal", "mod":2} ]}
+			, {"shuffle":false, "initiative":25, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1} ]}
+			, {"shuffle":false, "initiative":45, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			, {"shuffle":false, "initiative":45, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			, {"shuffle":false, "initiative":81, "line":[{"name":"attack", "mod":2} ]}
+			, {"shuffle":false, "initiative":74, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0}, {"name":"text", "label":"Target one enemy with all attacks."} ]}
+			, {"shuffle":true, "initiative":12, "line":[{"name":"shield", "mod":1}, {"name":"heal", "mod":2} ]}
+			]
+        },
+		{ "name": "Living Corpse"
+		, "cards":
+			[ {"shuffle":false, "initiative":21, "line":[{"name":"move", "mod": 1}, {"name":"text", "label":"Target one adjacent enemy and apply the following:"}, {"name":"muddle"}, {"name":"immobilize"} ]}
+			, {"shuffle":false, "initiative":47, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1} ]}
+			, {"shuffle":false, "initiative":71, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":1}, {"name":"poison"},{"name":"text", "label":"Target all adjacent enemies"} ]}
+			, {"shuffle":false, "initiative":91, "line":[{"name":"move", "mod":1}, {"name":"text", "label":"Living Corpse suffers 1 damage."} ]}
+			, {"shuffle":false, "initiative":32, "line":[{"name":"attack", "mod":2, "push":1}, {"name":"text", "label":"Living Corpse suffers 1 damage."} ]}
+			, {"shuffle":false, "initiative":82, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1} ]}
+			, {"shuffle":true, "initiative":66, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			, {"shuffle":true, "initiative":66, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			]
+		},
+		{
+			"name":"Living Spirit"
+			, "cards":
+				[{"shuffle":true,"initiative":22,"line":[{"name":"move","mod":-1},{"name":"attack","mod":-1,"range":0,"muddle":true}]}
+				,{"shuffle":true,"initiative":33,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1,"range":0},{"name":"text","label":"Target all enemies within range"}]}
+				,{"shuffle":false,"initiative":48,"line":[{"name":"move","mod":0},{"name":"attack","mod":0,"range":0}]}
+				,{"shuffle":false,"initiative":48,"line":[{"name":"move","mod":0},{"name":"attack","mod":0,"range":0}]}
+				,{"shuffle":false,"initiative":61,"line":[{"name":"attack","mod":0,"range":-1,"target":2}]}
+				,{"shuffle":false,"initiative":75,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1,"range":-1},{"name":"heal","mod":1,"range":0}]}
+				,{"shuffle":false,"initiative":55,"line":[{"name":"move","mod":0},{"name":"curse","range":-1},{"name":"text","label":"Target all enemies within range"},{"name":"createElement","element":"frost"}]}
+				,{"shuffle":false,"initiative":67,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1,"range":0},{"name":"convertElementToAction","element":"frost","action":"stun"}]}
+			]
+		},
+		{
+			"name":"Lurker"
+			, "cards":
+				[{"shuffle":true,"initiative":11,"line":[{"name":"shield","mod":1},{"name":"convertElementToAction","element":"frost","action":"text","label":"Shield 2 instead"},{"name":"wound"},{"name":"text","label":"Target all adjacent enemies."}]}
+				,{"shuffle":false,"initiative":28,"line":[{"name":"move","mod":1},{"name":"attack","mod":-1}]}
+				,{"shuffle":false,"initiative":38,"line":[{"name":"move","mod":0},{"name":"attack","mod":0}]}
+				,{"shuffle":false,"initiative":38,"line":[{"name":"move","mod":0},{"name":"attack","mod":0},{"name":"text","label":"Target one enemy with all attacks"}]}
+				,{"shuffle":false,"initiative":61,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1}]}
+				,{"shuffle":false,"initiative":64,"line":[{"name":"attack","mod":1},{"name":"text","label":"Target all adjacent enemies"}]}
+				,{"shuffle":false,"initiative":41,"line":[{"name":"convertElementToAction","element":"frost","action":"strengthen"},{"name":"move","mod":0},{"name":"attack","mod":-1,"wound":true}]}
+				,{"shuffle":true,"initiative":23,"line":[{"name":"shield","mod":1},{"name":"move","mod":0},{"name":"attack","mod":-1},{"name":"createElement","element":"frost"}]}
+			]
+		},
+		{
+		   "name": "Merciless Overseer"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"text","label":"All Scouts act again"}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text","label":"Summon Vermling Scouts"}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"text","label":"All Scouts act again"}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text","label":"Summon Vermling Scouts"}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"text","label":"All Scouts act again"}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text","label":"Summon Vermling Scouts"}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2},{"name":"text","label":"    X = Number of Scouts present"}]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0},{"name":"text","label":"    X = Number of Scouts present"}]}
+			   ]
+		},		
+		{
+			"name":"Mysterious Altar"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"text", "label":"Turns out the altar isn't that mysterious after all."}, {"name":"text", "label":"When this altar is destroyed, the scenario is complete."}]}
+			]
+		},
+		{
+		  "name":"Night Demon"
+		  , "cards":
+			[{"shuffle":false,"initiative":4,"line":[{"name":"move","mod":1},{"name":"attack","mod":-1},{"name":"createElement","element":"night"}, {"name":"text", "label":"Attackers gain Disadvantage"}]}
+			,{"shuffle":false,"initiative":7,"line":[{"name":"move","mod":1},{"name":"attack","mod":-1},{"name":"convertElementToAction","element":"night","action":"invisibleSelf"}, {"name":"text", "label":"Attackers gain Disadvantage"}]}
+			,{"shuffle":false,"initiative":22,"line":[{"name":"move","mod":0},{"name":"attack","mod":0},{"name":"createElement","element":"night"}, {"name":"text", "label":"Attackers gain Disadvantage"}]}
+			,{"shuffle":false,"initiative":26,"line":[{"name":"attack","mod":-2,"range":3,"target":3},{"name":"convertElementToAction","element":"night","action":"muddle"}, {"name":"text", "label":"Attackers gain Disadvantage"}]}
+			,{"shuffle":true,"initiative":46,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1},{"name":"convertElementToAction","element":"night","action":"attackBuff","mod":2}, {"name":"text", "label":"Attackers gain Disadvantage"}]}
+			,{"shuffle":true,"initiative":41,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1},{"name":"createElement","element":"night"}, {"name":"text", "label":"Attackers gain Disadvantage"}]}
+			,{"shuffle":false,"initiative":35,"line":[{"name":"attack","mod":-1},{"name":"attack","mod":-1,"pierce":2},{"name":"convertElementToAction","element":"light","action":"curseSelf"}, {"name":"text", "label":"Attackers gain Disadvantage"}]}
+			,{"shuffle":false,"initiative":15,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1},{"name":"text","label":"All adjacent enemies and allies suffer 1 damage."},{"name":"convertElementToAction","element":"any","action":"element","toElement":"night"}, {"name":"text", "label":"Attackers gain Disadvantage"}
+			]}
+		  ]
+		},
+		{
+		"name": "Ooze"
+		, "cards":
+				[ {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1} ]}
+				, {"shuffle":false, "initiative":57, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+				, {"shuffle":false, "initiative":59, "line":[{"name":"attack", "mod":0, "target":2, "poison":true} ]}
+				, {"shuffle":false, "initiative":66, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1, "range":1} ]}
+				, {"shuffle":true, "initiative":94, "line":[{"name":"text", "label":"Ooze suffers 2 damage"}, {"name":"text", "label":"Summon normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)"} ]}
+				, {"shuffle":true, "initiative":94, "line":[{"name":"text", "label":"Ooze suffers 2 damage"}, {"name":"text", "label":"Summon normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)"} ]}
+				, {"shuffle":false, "initiative":66, "line":[{"name":"move", "mod":-1}, {"name":"loot", "range":1}, {"name":"heal", "mod":2, "range":0} ]}
+				, {"shuffle":false, "initiative":85, "line":[{"name":"push", "mod":1, "poison":true},{"name":"text", "label":"Target all adjacent enemies"}, {"name":"attack", "mod":1, "range":-1} ]}
+				]
+		},
+		{
+		   "name": "Prime Demon"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"text","label":"The altar jumps to the next hex in the order of a, b, c, d, e, f and then back to a."}, {"name":"text","label":"Special1"},{"name":"text","label":"a : Frost Demon"},{"name":"text","label":"b : Wind Demon"},{"name":"text","label":"c : Night Demon"},{"name":"text","label":"d : Earth Demon"},{"name":"text","label":"e : Flame Demon"},{"name":"text","label":"f : Sun Demon"},{"name":"move","mod":2},{"name":"attack","mod":-1}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text", "label":"The altar jumps to the next hex in the order of a, b, c, d, e, f and then back to a."}, {"name":"text","label":"Special2"},{"name":"text","label":"a : Frost Demon"},{"name":"text","label":"b : Wind Demon"},{"name":"text","label":"c : Night Demon"},{"name":"text","label":"d : Earth Demon"},{"name":"text","label":"e : Flame Demon"},{"name":"text","label":"f : Sun Demon"},{"name":"move","mod":2},{"name":"attack","mod":-1}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"text","label":"The altar jumps to the next hex in the order of a, b, c, d, e, f and then back to a."}, {"name":"text","label":"Special1"},{"name":"text","label":"a : Frost Demon"},{"name":"text","label":"b : Wind Demon"},{"name":"text","label":"c : Night Demon"},{"name":"text","label":"d : Earth Demon"},{"name":"text","label":"e : Flame Demon"},{"name":"text","label":"f : Sun Demon"},{"name":"move","mod":2},{"name":"attack","mod":-1}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text","label":"The altar jumps to the next hex in the order of a, b, c, d, e, f and then back to a."}, {"name":"text","label":"Special2"},{"name":"text","label":"a : Frost Demon"},{"name":"text","label":"b : Wind Demon"},{"name":"text","label":"c : Night Demon"},{"name":"text","label":"d : Earth Demon"},{"name":"text","label":"e : Flame Demon"},{"name":"text","label":"f : Sun Demon"},{"name":"move","mod":2},{"name":"attack","mod":-1}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"text","label":"The altar jumps to the next hex in the order of a, b, c, d, e, f and then back to a."}, {"name":"text","label":"Special1"},{"name":"text","label":"a : Frost Demon"},{"name":"text","label":"b : Wind Demon"},{"name":"text","label":"c : Night Demon"},{"name":"text","label":"d : Earth Demon"},{"name":"text","label":"e : Flame Demon"},{"name":"text","label":"f : Sun Demon"},{"name":"move","mod":2},{"name":"attack","mod":-1}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text","label":"The altar jumps to the next hex in the order of a, b, c, d, e, f and then back to a."}, {"name":"text","label":"Special2"},{"name":"text","label":"a : Frost Demon"},{"name":"text","label":"b : Wind Demon"},{"name":"text","label":"c : Night Demon"},{"name":"text","label":"d : Earth Demon"},{"name":"text","label":"e : Flame Demon"},{"name":"text","label":"f : Sun Demon"},{"name":"move","mod":2},{"name":"attack","mod":-1}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{
+		   "name": "Prime Demon B"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85,  "line":[{"name":"move","mod":0},{"name":"attack","mod":0}]}
+			   , {"shuffle":true, "initiative":17,  "line":[{"name":"move","mod":0},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"move","mod":0},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"move","mod":0},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"move","mod":0},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"move","mod":0},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{
+			"name": "Rending Drake"
+		, "cards":
+			  [ {"shuffle":false, "initiative":59, "line":[{"name":"move", "mod":-2}, {"name":"attack", "mod":1, "target":2} ]}
+			  , {"shuffle":true, "initiative":13, "line":[{"name":"attack", "mod":-1}, {"name":"move", "mod":-1}, {"name":"attack", "mod":-1} ]}
+			  , {"shuffle":true, "initiative":72, "line":[{"name":"attack", "mod":-1}, {"name":"attack", "mod":-1}, {"name":"attack", "mod":-2} ]}
+			  , {"shuffle":false, "initiative":6, "line":[{"name":"shield", "mod":2}, {"name":"heal", "mod":2, "range":0}, {"name":"strengthen", "range":0} ]}
+			  , {"shuffle":false, "initiative":25, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  , {"shuffle":false, "initiative":54, "line":[{"name":"move", "mod":-2}, {"name":"attack", "mod":-1, "range":3, "target":2, "poison":true} ]}
+			  , {"shuffle":false, "initiative":12, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1} ]}
+			  , {"shuffle":false, "initiative":39, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1} ]}
+			  ]
+		},
+		{
+		   "name": "Rock Column"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":99,  "line":[{"name":"text", "label":"Special1"}, {"name":"text","label":"Special2"}]}
+			   ]
+		},
+		{
+			"name":"Savvas Icestorm"
+			, "cards":
+				[{"shuffle":false,"initiative":70,"line":[{"name":"push","mod":2},{"name":"text","label":"Target all adjacent enemies"},{"name":"convertElementToAction","element":"air","action":"push4"},{"name":"attack","mod":1,"range":1}]}
+				,{"shuffle":false,"initiative":98,"line":[{"name":"text","label":"Summon normal Wind Demon"},{"name":"createElement","element":"air"}]}
+				,{"shuffle":false,"initiative":98,"line":[{"name":"text","label":"Summon normal Frost Demon"},{"name":"createElement","element":"frost"}]}
+				,{"shuffle":false,"initiative":19,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1,"range":-1},{"name":"shield","mod":1},{"name":"text","label":"Affect self and all allies within Range 2"},{"name":"createElement","element":"frost"}]}
+				,{"shuffle":false,"initiative":14,"line":[{"name":"attack","mod":0,"range":0},{"name":"convertElementToAction","element":"frost","action":"attackBuff","mod":2,"immobilize":true},{"name":"retaliate","mod":2},{"name":"createElement","element":"air"}]}
+				,{"shuffle":false,"initiative":14,"line":[{"name":"shield","mod":4},{"name":"heal","mod":2, "range":3},{"name":"convertElementToAction","element":"frost","action":"text","label":"+3 Heal"}, {"name":"convertElementToAction","element":"air","action":"attack","mod":"0"}]}
+				,{"shuffle":true,"initiative":47,"line":[{"name":"disarm"},{"name":"text","label":"Target all adjacent enemies"},{"name":"move","mod":0},{"name":"attack","mod":-1,"range":0},{"name":"createElement","element":"air"}]}
+				,{"shuffle":true,"initiative":35,"line":[{"name":"move","mod":-1},{"name":"attack","mod":-1, "range":-5, "aoe":"aoe-triangle-3-side-with-corner-black"},{"name":"text", "label":"Attack using area of effect (A)."}, {"name":"createElement","element":"frost"}]}
+			]
+		},
+		{
+		  "name":"Savvas Lavaflow"
+		  , "cards":
+			[{"shuffle":false,"initiative":97,"line":[{"name":"text","label":"Summon normal Flame Demon"},{"name":"createElement","element":"fire"}]}
+			,{"shuffle":false,"initiative":97,"line":[{"name":"text","label":"Summon normal Earth Demon"},{"name":"createElement","element":"earth"}]}
+			,{"shuffle":false,"initiative":22,"line":[{"name":"move","mod":1},{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"},{"name":"convertElementToAction","element":"fire","action":"retaliate"}]}
+			,{"shuffle":true,"initiative":68,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1,"range":3},{"name":"text","label":"All allies and enemies adjacent to the target suffer 2 damage."},{"name":"createElement","element":"earth"}]}
+			,{"shuffle":false,"initiative":41,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1, "range":-5, "aoe":"aoe-4-with-black"}, {"name":"text", "label":"Attack using area of effect (A)."},{"name":"convertElementToAction","element":"earth","action":"attackBuff","mod":2,"immobilize":true}]}
+			,{"shuffle":false,"initiative":51,"line":[{"name":"text","label":"All enemies suffer 2 damage."},{"name":"convertElementToAction","element":"fire","action":"woundAll"},{"name":"convertElementToAction","element":"earth","action":"disarmAll"}]}
+			,{"shuffle":false,"initiative":31,"line":[{"name":"heal","mod":4,"range":3},{"name":"convertElementToAction","element":"earth","action":"target3"}]}
+			,{"shuffle":true,"initiative":68,"line":[{"name":"move","mod":-1},{"name":"attack","mod":-1,"range":3,"target":2},{"name":"createElement","element":"fire"}]}
+			]
+		},
+		{ "name": "Scout"
+		  , "cards":
+			  [ {"shuffle":true, "initiative":35, "line":[{"name":"move", "mod": 1, "jump":true}, {"name":"loot", "range": 1} ]}
+			  , {"shuffle":false, "initiative":79, "line":[{"name":"attack", "mod":-1, "range":4, "target":2} ]}
+			  , {"shuffle":true, "initiative":92, "line":[{"name":"attack", "mod": 2, "poison":true} ]}
+			  , {"shuffle":false, "initiative":69, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": 1} ]}
+			  , {"shuffle":false, "initiative":54, "line":[{"name":"move", "mod":-2}, {"name":"attack", "mod": 0, "range":3, "poison":true} ]}
+			  , {"shuffle":false, "initiative":53, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  , {"shuffle":false, "initiative":40, "line":[{"name":"move", "mod": 1}, {"name":"attack", "mod": -1} ]}
+			  , {"shuffle":false, "initiative":29, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range":3} ]}
+			  ]
+		},
+		{
+		   "name": "Siege Cannon"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":99,  "line":[{"name":"text", "label":"The Siege Cannon does not act."}, {"name":"text","label":"Special1"}, {"name":"text","label":"If at the end of a round no City Archers are present on the map, one normal archer spawns at (a)."}]}
+			   ]
+		},
+		{ "name": "Shaman"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":8, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": -1, "disarm":true} ]}
+			  , {"shuffle":false, "initiative":8, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":0, "immobilize":true} ]}
+			  , {"shuffle":false, "initiative":9, "line":[{"name":"move", "mod": 1}, {"name":"attack", "mod":-1, "curse":true, "target":2} ]}
+			  , {"shuffle":false, "initiative":62, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			  , {"shuffle":true, "initiative":23, "line":[{"name":"move", "mod":0}, {"name":"heal", "mod": 3, "range":3} ]}
+			  , {"shuffle":false, "initiative":89, "line":[{"name":"move", "mod":-1}, {"name":"heal", "mod":1, "range":-1}, {"name":"text", "label":"Affect all adjacent allies"}, {"name":"bless", "range":0} ]}
+			  , {"shuffle":true, "initiative":23, "line":[{"name":"move", "mod": 0}, {"name":"heal", "mod": 3, "range":3} ]}
+			  , {"shuffle":false, "initiative":74, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": 1} ]}
+			  ]
+		},
+		{ "name": "Spitting Drake"
+		  , "cards":
+			  [ {"shuffle":true, "initiative":89, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":-2, "range":-2, "poison":true, "aoe":"aoe-circle"}, {"name":"text", "label":"Attack using area of effect (A)."}  ]}
+			  , {"shuffle":false, "initiative":6, "line":[{"name":"shield", "mod":2}, {"name":"heal", "mod":2, "range":0}, {"name":"strengthen", "range":0} ]}
+			  , {"shuffle":false, "initiative":89, "line":[{"name":"attack", "mod":-2, "stun":true} ]}
+			  , {"shuffle":false, "initiative":87, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1} ]}
+			  , {"shuffle":false, "initiative":27, "line":[{"name":"attack", "mod":0, "target":2, "poison":true} ]}
+			  , {"shuffle":true, "initiative":57, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":-1, "range":-1}]}
+			  , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  , {"shuffle":false, "initiative":32, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1} ]}
+			  ]
+		},
+		{
+		  "name": "Stone Golem"
+		  , "cards":
+			  [ {"shuffle":false, "initiative":72, "line":[{"name":"attack", "mod":1, "range":3}, {"name":"text", "label":"Stone Golem suffers 2 damage."} ]}
+			  , {"shuffle":true, "initiative":90, "line":[{"name":"move", "mod":-1}, {"name":"attack", "mod":1} ]}
+			  , {"shuffle":false, "initiative":83, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":-1}, {"name":"text", "label":"Target all adjacent enemies"} ]}
+			  , {"shuffle":false, "initiative":28, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-2, "range":3, "pull":2, "immobilize":true} ]}
+			  , {"shuffle":false, "initiative":11, "line":[{"name":"retaliate", "mod":3, "range":3} ]}
+			  , {"shuffle":false, "initiative":28, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":0}, {"name":"text", "label":"Stone Golem suffers 1 damage."} ]}
+			  , {"shuffle":true, "initiative":51, "line":[{"name":"move", "mod":1}, {"name":"attack", "mod":-1} ]}
+			  , {"shuffle":false, "initiative":65, "line":[{"name":"move", "mod":0}, {"name":"attack", "mod":0} ]}
+			  ]
+		},
+		{
+		  "name":"Sun Demon"
+		  , "cards":
+			[{"shuffle":true, "initiative":17,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"heal","mod":3,"range":3},{"name":"convertElementToAction","element":"light","action":"text","label":"Target all allies within range"}]}
+			,{"shuffle":false,"initiative":36,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"move","mod":0},{"name":"attack","mod":0},{"name":"text","label":"Target all adjacent enemies"},{"name":"createElement","element":"light"}]}
+			,{"shuffle":false,"initiative":36,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"move","mod":0},{"name":"attack","mod":0},{"name":"text","label":"Target all adjacent enemies"},{"name":"createElement","element":"light"}]}
+			,{"shuffle":false,"initiative":68,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"move","mod":0},{"name":"attack","mod":1},{"name":"createElement","element":"light"}]}
+			,{"shuffle":true, "initiative":73,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"move","mod":0},{"name":"attack","mod":1},{"name":"convertElementToAction","element":"light","action":"heal","mod":3,"range":0}]}
+			,{"shuffle":false,"initiative":95,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"move","mod":-1},{"name":"attack","mod":0,"range":4},{"name":"convertElementToAction","element":"light","action":"text","label":"Target all enemies within range"}]}
+			,{"shuffle":false,"initiative":88,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"move","mod":-1},{"name":"attack","mod":-1},{"name":"text","layer":"Target all adjacent enemies"},{"name":"convertElementToAction","element":"night","action":"muddleSelf"}]}
+			,{"shuffle":false,"initiative":50,"line":[{"name":"text", "label":"All attacks have Advantage"}, {"name":"move","mod":0},{"name":"attack","mod":0,"range":3},{"name":"convertElementToAction","element":"any","action":"element","toElement":"light"}]}
+			]
+		},
+		{
+		   "name": "The Betrayer"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"text","label":"Special1"}, {"name":"text","label":"Fear: All characters and characters summons are forced to Move 4 in initiative order, ending as far away from the Betrayer as possible."}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text","label":"Mind Control: All char and char summons are forced to move to the closest hex adjacent to the Betrayer. The char with highest initiative (except 99) is then mind controlled this round."}, {"name":"text", "label":"On their turn, Move 2 and perform the top action of their leading initiative card. Then discard* all cards. All summons the affected character owns are also mind controlled."}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"text","label":"Special1"}, {"name":"text","label":"Fear: All characters and characters summons are forced to Move 4 in initiative order, ending as far away from the Betrayer as possible."}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text","label":"Mind Control: All char and char summons are forced to move to the closest hex adjacent to the Betrayer. The char with highest initiative (except 99) is then mind controlled this round."}, {"name":"text", "label":"On their turn, Move 2 and perform the top action of their leading initiative card. Then discard* all cards. All summons the affected character owns are also mind controlled."}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"text","label":"Special1"}, {"name":"text","label":"Fear: All characters and characters summons are forced to Move 4 in initiative order, ending as far away from the Betrayer as possible."}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text","label":"Mind Control: All char and char summons are forced to move to the closest hex adjacent to the Betrayer. The char with highest initiative (except 99) is then mind controlled this round."}, {"name":"text", "label":"On their turn, Move 2 and perform the top action of their leading initiative card. Then discard* all cards. All summons the affected character owns are also mind controlled."}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2}]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0}]}
+			   ]
+		},
+		{
+		   "name": "The Colorless"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"convertElementToAction","element":"night","action":"text","label":"Summon Night Demon"},{"name":"invisible"},{"name":"text","label":"self"}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"convertElementToAction", "element":"light","action":"text","label":"Summon Sun Demon"},{"name":"heal","mod":4,"range":0},{"name":"shield","mod":1}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"convertElementToAction","element":"night","action":"text","label":"Summon Night Demon"},{"name":"invisible"},{"name":"text","label":"self"}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"convertElementToAction", "element":"light","action":"text","label":"Summon Sun Demon"},{"name":"heal","mod":4,"range":0},{"name":"shield","mod":1}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"convertElementToAction","element":"night","action":"text","label":"Summon Night Demon"},{"name":"invisible"},{"name":"text","label":"self"}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"convertElementToAction", "element":"light","action":"text","label":"Summon Sun Demon"},{"name":"heal","mod":4,"range":0},{"name":"shield","mod":1}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2}]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0}]}
+			   ]
+		},		
+		{
+		   "name": "The Gloom"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"move","mod":9},{"name":"attack","mod":9}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text","label":"Teleport: The Gloom jumps to a marked hex in order of a, b, c, and then back to a."},{"name":"attack","mod":1,"range":5, "poison":true,"wound":true,"stun":true}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"move","mod":9},{"name":"attack","mod":9}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text","label":"Teleport: The Gloom jumps to a marked hex in order of a, b, c, and then back to a."},{"name":"attack","mod":1,"range":5, "poison":true,"wound":true,"stun":true}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"move","mod":9},{"name":"attack","mod":9}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text","label":"Teleport: The Gloom jumps to a marked hex in order of a, b, c, and then back to a."},{"name":"attack","mod":1,"range":5, "poison":true,"wound":true,"stun":true}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{
+		   "name": "The Sightless Eye"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"text","label":"Special1"},{"name":"attack","mod":-3, "range":-5, "aoe":"theSightlessEyeA" }, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text","label":"Special2"},{"name":"attack","mod":-2, "range":-5, "aoe":"theSightlessEyeB" }, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"text","label":"Special1"},{"name":"attack","mod":-3, "range":-5, "aoe":"theSightlessEyeA"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text","label":"Special2"},{"name":"attack","mod":-2, "range":-5, "aoe":"theSightlessEyeB"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"text","label":"Special1"},{"name":"attack","mod":-3, "range":-5, "aoe":"theSightlessEyeA"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text","label":"Special2"},{"name":"attack","mod":-2, "range":-5, "aoe":"theSightlessEyeB"}, {"name":"text", "label":"Attack using area of effect (A)."}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2}]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0}]}
+			   ]
+		},
+		{
+			"name":"The Vibrant Tree"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"text", "label":"At the end of every round whether the room has been revealed or not, if there are any Rending drakes on the M tile it suffers 2 damage."}, {"name":"text", "label":"It can be healed like any normal ally once it is revealed, but the tree cannot be affected by any other abilities."}]}
+			]
+		},
+		{
+			"name":"Totem"
+			, "cards":
+			[ { "shuffle": true, "initiative":0, "line":[{"name":"text", "label":"Any monster performs:"}, {"name":"heal", "mod":2}, {"name":"text", "label":"At the start of its turn if it is within two hexes of a totem."}]}
+			]
+		},
+		{
+			"name":"Tree"
+			, "cards":
+			[ { "shuffle": true, "initiative":99, "line":[{"name":"text", "label":"At the end of every round:"}, {"name":"text", "label":"Special1"}, {"name":"text", "label":"If the tree is destroyed, it does not summon an ooze on its turn."}]}
+			]
+		},
+		{
+			"name":"Wind Demon"
+			, "cards":
+				[{"shuffle":false,"initiative":9,"line":[{"name":"attack","mod":-1,"range":0},{"name":"heal","mod":1},{"name":"convertElementToAction","element":"air","action":"invisibleSelf"}]}
+				,{"shuffle":true,"initiative":21,"line":[{"name":"move","mod":0},{"name":"attack","mod":0,"range":0,"pull":1},{"name":"createElement","element":"air"}]}
+				,{"shuffle":true,"initiative":21,"line":[{"name":"move","mod":0},{"name":"attack","mod":0,"range":0,"pull":1},{"name":"createElement","element":"air"}]}
+				,{"shuffle":false,"initiative":29,"line":[{"name":"move","mod":0},{"name":"attack","mod":-1,"range":0,"target":2},{"name":"convertElementToAction","element":"air","action":"push2"}]}
+				,{"shuffle":false,"initiative":37,"line":[{"name":"move","mod":0},{"name":"attack","mod":0, "range":-5, "aoe":"aoe-4-with-black"}, {"name":"text", "label":"Attack using area of effect (A)."},{"name":"convertElementToAction","element":"air", "action":"attackBuff","mod":1}, {"name":"text", "label":"Use area of effect (B)."},{"name":"aoe2", "aoe":"aoe-circle-with-side-black"}]}
+				,{"shuffle":false,"initiative":43,"line":[{"name":"move","mod":-1},{"name":"attack","mod":1,"range":0},{"name":"convertElementToAction","element":"air", "action":"target2"}]}
+				,{"shuffle":false,"initiative":43,"line":[{"name":"push", "mod":1},{"name":"text","label":"Target all adjacent enemies"},{"name":"attack","mod":0,"range":0},{"name":"convertElementToAction","element":"earth", "action":"minusRange"}]}
+				,{"shuffle":false,"initiative":2,"line":[{"name":"shield","mod":1},{"name":"move","mod":-1},{"name":"attack","mod":-1,"range":0},{"name":"convertElementToAction","element":"any","action":"element","toElement":"air"}]}
+			]
+		},
+		{
+		   "name": "Winged Horror"
+		   , "cards":
+			   [ {"shuffle":true, "initiative":85, "line":[{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"},{"name":"attack","mod":0, "range":3},{"name":"text","label":"Hatch eggs"}]}
+			   , {"shuffle":true, "initiative":17, "line":[{"name":"text", "label":"egg"},{"name":"move","mod":-1},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":79, "line":[{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"},{"name":"attack","mod":0, "range":3},{"name":"text","label":"Hatch eggs"}]}
+			   , {"shuffle":false, "initiative":11, "line":[{"name":"text", "label":"egg"},{"name":"move","mod":-1},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":73, "line":[{"name":"attack","mod":-1},{"name":"text","label":"Target all adjacent enemies"},{"name":"attack","mod":0, "range":3},{"name":"text","label":"Hatch eggs"}]}
+			   , {"shuffle":false, "initiative":14, "line":[{"name":"text", "label":"egg"},{"name":"move","mod":-1},{"name":"attack","mod":0}]}
+			   , {"shuffle":false, "initiative":52, "line":[{"name":"move", "mod": -1}, {"name":"attack", "mod": -1, "range": 3, "target": 2} ]}
+			   , {"shuffle":false, "initiative":36, "line":[{"name":"move", "mod": 0}, {"name":"attack", "mod": 0} ]}
+			   ]
+		},
+		{
+		   "name": "Zephyr"
+		   , "cards":
+			   [  {"shuffle":true, "initiative":0, "line":[{"name":"text","label":"*** SPECIAL ***"}, {"name":"text", "label":"Zephyrs cannot be damaged in any way. They play immediately before the Elder Drake's turn every round."},{"name":"move", "mod":0}, {"name":"attack", "mod":0}]}]
+		}
+	]
+}

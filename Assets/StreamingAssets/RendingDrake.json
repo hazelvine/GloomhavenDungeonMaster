@@ -1,0 +1,291 @@
+{
+
+	"name": "Rending Drake",
+
+	 "level": [
+
+        {
+
+          "level": 0,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 5,
+
+            "move": 3,
+
+            "attack": 3
+
+          },{ "type":"elite",
+
+            "health": 7,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 0
+
+          }]
+
+        },        
+
+        {
+
+        "level": 1,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 6,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 0,
+
+            "wound":true
+
+          },{ "type":"elite",
+
+            "health": 7,
+
+            "move": 4,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "wound":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 2,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 7,
+
+            "move": 4,
+
+            "attack": 3,
+
+            "range": 0,
+
+            "wound":true
+
+          },{ "type":"elite",
+
+            "health": 9,
+
+            "move": 5,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "wound":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 3,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 7,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 0,
+
+            "wound":true
+
+          },{ "type":"elite",
+
+            "health": 10,
+
+            "move": 5,
+
+            "attack": 6,
+
+            "range": 0,
+
+            "wound":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 4,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 9,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 0,
+
+            "wound":true
+
+          },{ "type":"elite",
+
+            "health": 11,
+
+            "move": 6,
+
+            "attack": 6,
+
+            "range": 0,
+
+            "wound":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 5,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 10,
+
+            "move": 4,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "wound":true
+
+          },{ "type":"elite",
+
+            "health": 14,
+
+            "move": 6,
+
+            "attack": 6,
+
+            "range": 0,
+
+            "wound":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 6,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 11,
+
+            "move": 5,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "wound":true
+
+          },{ "type":"elite",
+
+            "health": 15,
+
+            "move": 6,
+
+            "attack": 7,
+
+            "range": 0,
+
+            "wound":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 7,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 14,
+
+            "move": 5,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "wound":true
+
+          },{ "type":"elite",
+
+            "health": 18,
+
+            "move": 6,
+
+            "attack": 7,
+
+            "range": 0,
+
+            "wound":true
+
+          }]
+
+        }
+
+	]
+
+}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef08c6b5ae94634c95b09df8e048d09, type: 3}
+  m_Name: Living Corpse
+  m_EditorClassIdentifier: 
+  initiative: 0
+  creatureLevel: 1
+  image: {fileID: 21300000, guid: 15893f289d8a69745a251c2b1b1fc726, type: 3}
+  thumbnail: {fileID: 21300000, guid: c34bb6fce5ea88049946f37e74e47bfc, type: 3}
+  dbStatPath: LivingCorpse.json
+  DeckType: Living Corpse
+  deck:
+    name: Living Corpse
+    cards: []
+  creatureDeck: []
+  creature:
+  - {fileID: 11400000, guid: a4c5ff6e93ccd9549a2925dfda0c568d, type: 2}
+  - {fileID: 11400000, guid: ada73dbbf920d5b4fa87009a18e2fc62, type: 2}
+  - {fileID: 11400000, guid: b5573ba594748c1479bb2da5b2c74311, type: 2}
+  - {fileID: 11400000, guid: fa72a9a22c2605842813c09888858c97, type: 2}
+  - {fileID: 11400000, guid: d8e2ac87113a9d64bb9bf66d12a1db5e, type: 2}
+  - {fileID: 11400000, guid: 9c8983eae7a893c41a2ace2d8c374e38, type: 2}
+  stats:
+    name: 
+    isBoss: 0
+    isNPC: 0
+    canFly: 0
+    immunity:
+      poison: 0
+      muddle: 0
+      curse: 0
+      immobilize: 0
+      disarm: 0
+      wound: 0
+      stun: 0
+      advantage: 0
+      disadvantage: 0
+      push: 0
+      pull: 0
+    level: []

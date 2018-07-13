@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Spitting Drake
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: de03a72e9e42ab447aa811f6029e3761, type: 2}
+  - {fileID: 11400000, guid: 13e54fa07a932864c8952fe4f06ea900, type: 2}
+  - {fileID: 11400000, guid: f998da784950293459847cf409f54849, type: 2}
+  - {fileID: 11400000, guid: 5cd87649fcf5afb4187f4243fdf1f49a, type: 2}
+  - {fileID: 11400000, guid: 2b11ebe813cf8974797837b514552ca8, type: 2}
+  - {fileID: 11400000, guid: 6aa3fc713946e374aa1795f672fb39c1, type: 2}
+  - {fileID: 11400000, guid: bc88d1cbae839a74daf09db2ebf939bb, type: 2}
+  - {fileID: 11400000, guid: 70ae841e36343c443a6898a234b480b0, type: 2}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef08c6b5ae94634c95b09df8e048d09, type: 3}
+  m_Name: Inox Archer
+  m_EditorClassIdentifier: 
+  initiative: 0
+  creatureLevel: 1
+  image: {fileID: 21300000, guid: b2ebaf58902dd5e48990995f2beeda43, type: 3}
+  thumbnail: {fileID: 21300000, guid: d960dee4fb0810e4ea0ecb18a924d673, type: 3}
+  dbStatPath: InoxArcher.json
+  DeckType: Archer
+  deck:
+    name: Archer
+    cards: []
+  creatureDeck: []
+  creature:
+  - {fileID: 11400000, guid: fccd1aec3cd23944c96a9df37e0cb11e, type: 2}
+  - {fileID: 11400000, guid: 5c26c6154e539de48a3113796e515bce, type: 2}
+  - {fileID: 11400000, guid: 71c9216c8d59c784db7a5bf4351a8f96, type: 2}
+  - {fileID: 11400000, guid: 1981b64390bad9241b7b7689d7460aad, type: 2}
+  - {fileID: 11400000, guid: fcc88ae1c68cf8f42af55b1e7444cc3a, type: 2}
+  - {fileID: 11400000, guid: 55ccdcf08832b074a91712dfdfa8549e, type: 2}
+  stats:
+    name: 
+    isBoss: 0
+    isNPC: 0
+    canFly: 0
+    immunity:
+      poison: 0
+      muddle: 0
+      curse: 0
+      immobilize: 0
+      disarm: 0
+      wound: 0
+      stun: 0
+      advantage: 0
+      disadvantage: 0
+      push: 0
+      pull: 0
+    level: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Sun Demon
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 2ce1a75b0bd03954abc11b29c1ceebe3, type: 2}
+  - {fileID: 11400000, guid: 8db230821ddf41540aae6cf35800bd8f, type: 2}
+  - {fileID: 11400000, guid: 5ba32a345db420f4389cf82d47872dfa, type: 2}
+  - {fileID: 11400000, guid: 8c4eecb86e0f7414b8167b63e634a20f, type: 2}
+  - {fileID: 11400000, guid: 96e3e466e3f7748409b988ad01f78663, type: 2}
+  - {fileID: 11400000, guid: 4768e111166ce554d9a6ad2b8c5d0315, type: 2}
+  - {fileID: 11400000, guid: 468551b18caa2294eb4c2986c365e435, type: 2}
+  - {fileID: 11400000, guid: dd394900b36a7eb45b5fea49f2d48ec7, type: 2}

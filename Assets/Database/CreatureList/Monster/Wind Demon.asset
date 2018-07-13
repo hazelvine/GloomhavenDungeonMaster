@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef08c6b5ae94634c95b09df8e048d09, type: 3}
+  m_Name: Wind Demon
+  m_EditorClassIdentifier: 
+  initiative: 43
+  creatureLevel: 1
+  image: {fileID: 21300000, guid: 48e44106e84cf944f8a8e1314e648c33, type: 3}
+  thumbnail: {fileID: 21300000, guid: 4ee52376eb0d37c409017ae57d5dbd6d, type: 3}
+  dbStatPath: WindDemon.json
+  DeckType: Wind Demon
+  deck:
+    name: Wind Demon
+    cards: []
+  creatureDeck:
+  - shuffle: 0
+    initiative: 0
+    line: []
+  - shuffle: 0
+    initiative: 0
+    line: []
+  - shuffle: 0
+    initiative: 0
+    line: []
+  - shuffle: 0
+    initiative: 0
+    line: []
+  - shuffle: 0
+    initiative: 0
+    line: []
+  - shuffle: 0
+    initiative: 0
+    line: []
+  - shuffle: 0
+    initiative: 0
+    line: []
+  - shuffle: 0
+    initiative: 0
+    line: []
+  creature:
+  - {fileID: 11400000, guid: 79eff8bc8e64e2b49b61f6a2175d72c6, type: 2}
+  - {fileID: 11400000, guid: 2036867bc9692e2448d6d14f8fecfbbf, type: 2}
+  - {fileID: 11400000, guid: 61da6be9f3e653540bd1d061bd8d249f, type: 2}
+  - {fileID: 11400000, guid: e48e66d4ce1e55e4eb8ac22f3e901e61, type: 2}
+  - {fileID: 11400000, guid: 5e2466678910c3749a34acf7e6dc066a, type: 2}
+  - {fileID: 11400000, guid: 13a9150a6f253cc46bc57e1976b83292, type: 2}
+  stats:
+    name: 
+    isBoss: 0
+    isNPC: 0
+    canFly: 0
+    immunity:
+      poison: 0
+      muddle: 0
+      curse: 0
+      immobilize: 0
+      disarm: 0
+      wound: 0
+      stun: 0
+      advantage: 0
+      disadvantage: 0
+      push: 0
+      pull: 0
+    level: []

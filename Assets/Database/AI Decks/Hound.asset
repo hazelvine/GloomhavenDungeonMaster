@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Hound
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: df2819fdc72b0f04d8aa5b61753f3b9a, type: 2}
+  - {fileID: 11400000, guid: f2c931838b679c644a6ce8c44cad859a, type: 2}
+  - {fileID: 11400000, guid: 9e7e4f486ec46a046b5fb986ebdece11, type: 2}
+  - {fileID: 11400000, guid: 46818c036e69e344da62d3c0d26451c3, type: 2}
+  - {fileID: 11400000, guid: f7e6121e0b3cce748abdd73e8d0d2e39, type: 2}
+  - {fileID: 11400000, guid: acad9476e90f52448b1d6d669c5b85e8, type: 2}
+  - {fileID: 11400000, guid: 996a630aea9a3cc40b4f02673437344a, type: 2}
+  - {fileID: 11400000, guid: 0dcbd25fedbab1f4c93317360ae59a85, type: 2}

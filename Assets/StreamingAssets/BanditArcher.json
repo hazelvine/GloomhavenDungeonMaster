@@ -1,0 +1,153 @@
+{
+	"name": "Bandit Archer",
+	"level": [
+        {
+          "level": 0,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 4,
+            "move": 2,
+            "attack": 2,
+            "range": 3
+          }
+		,{
+		"type":"elite",
+            "health": 6,
+            "move": 2,
+            "attack": 3,
+            "range": 3
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 5,
+            "move": 2,
+            "attack": 2,
+            "range": 4
+          }
+		,{
+		"type":"elite",
+            "health": 7,
+            "move": 2,
+            "attack": 3,
+            "range": 5
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 6,
+            "move": 3,
+            "attack": 2,
+            "range": 4
+          }
+		,{
+		"type":"elite",
+            "health": 9,
+            "move": 3,
+            "attack": 3,
+            "range": 5
+          }]
+        },
+        {
+          "level": 3,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 6,
+            "move": 3,
+            "attack": 3,
+            "range": 4
+          }
+		,{
+		"type":"elite",
+            "health": 10,
+            "move": 3,
+            "attack": 4,
+            "range": 5 
+          }]
+        },
+        {
+          "level": 4,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 8,
+            "move": 3,
+            "attack": 3,
+            "range": 4
+          }
+		,{
+		"type":"elite",
+            "health": 10,
+            "move": 3,
+            "attack": 4,
+            "range": 6,
+            "poison":true
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 10,
+            "move": 3,
+            "attack": 3,
+            "range": 5
+          }
+		,{
+		"type":"elite",
+            "health": 12,
+            "move": 4,
+            "attack": 4,
+            "range": 6,
+            "poison":true
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 10,
+            "move": 3,
+            "attack": 4,
+            "range": 5
+          }
+		,{
+		"type":"elite",
+            "health": 13,
+            "move": 4,
+            "attack": 5,
+            "range": 6,
+            "poison":true
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 13,
+            "move": 3,
+            "attack": 4,
+            "range": 5
+          }
+		,{
+		"type":"elite",
+            "health": 17,
+            "move": 4,
+            "attack": 5,
+            "range": 6,
+            "poison":true
+          }]
+        }
+      ]
+}

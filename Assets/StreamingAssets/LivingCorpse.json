@@ -1,0 +1,139 @@
+{
+	"name": "Living Corpse",
+        "level": [
+        {
+          "level": 0,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 5,
+            "move": 1,
+            "attack": 3,
+            "range": 0
+          },{ "type":"elite",
+            "health": 10,
+            "move": 1,
+            "attack": 3,
+            "range": 0
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 7,
+            "move": 1,
+            "attack": 3,
+            "range": 0
+          },{ "type":"elite",
+            "health": 10,
+            "move": 1,
+            "attack": 4,
+            "range": 0
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 9,
+            "move": 1,
+            "attack": 3,
+            "range": 0
+          },{ "type":"elite",
+            "health": 13,
+            "move": 1,
+            "attack": 4,
+            "range": 0
+          }]
+        },
+        {
+          "level": 3,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 10,
+            "move": 1,
+            "attack": 4,
+            "range": 0
+          },{ "type":"elite",
+            "health": 13,
+            "move": 2,
+            "attack": 5,
+            "range": 0
+          }]
+        },
+        {
+          "level": 4,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 11,
+            "move": 2,
+            "attack": 4,
+            "range": 0
+          },{ "type":"elite",
+            "health": 15,
+            "move": 2,
+            "attack": 5,
+            "range": 0,
+			"poison":true
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 13,
+            "move": 2,
+            "attack": 4,
+            "range": 0
+          },{ "type":"elite",
+            "health": 17,
+            "move": 2,
+            "attack": 6,
+            "range": 0,
+			"poison":true
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 14,
+            "move": 2,
+            "attack": 4,
+            "range": 0,
+			"poison":true
+          },{ "type":"elite",
+            "health": 21,
+            "move": 2,
+            "attack": 6,
+            "range": 0,
+			"poison":true
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[
+		{
+		"type":"normal",
+            "health": 15,
+            "move": 2,
+            "attack": 5,
+            "range": 0,
+			"poison":true
+          },{ "type":"elite",
+            "health": 25,
+            "move": 2,
+            "attack": 6,
+            "range": 0,
+			"poison":true
+          }]
+        }
+	]
+}

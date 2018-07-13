@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Cave Bear
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 90bdba6d755eef0409b24ac5fbc378d2, type: 2}
+  - {fileID: 11400000, guid: b7055830a8cc38b49856dd365987cd18, type: 2}
+  - {fileID: 11400000, guid: b5adf18bed3f2e343936c6aba719c360, type: 2}
+  - {fileID: 11400000, guid: 71d104edf1cf94c4698837923bafe6bd, type: 2}
+  - {fileID: 11400000, guid: 5d876163676cf6e458017c07fab9bafe, type: 2}
+  - {fileID: 11400000, guid: e421ba0662d93aa4aaf3879443cab734, type: 2}
+  - {fileID: 11400000, guid: 41a84039b8d03e348b85a8a20a37ab6d, type: 2}
+  - {fileID: 11400000, guid: c2978dc4f628ace439af517902e9723c, type: 2}

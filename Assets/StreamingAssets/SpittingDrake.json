@@ -1,0 +1,293 @@
+{
+
+	"name": "Spitting Drake",
+
+		"canFly":true,
+
+	 "level": [
+
+        {
+
+          "level": 0,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 5,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 3
+
+          },{ "type":"elite",
+
+            "health": 8,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 4
+
+          }]
+
+        },        
+
+        {
+
+        "level": 1,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 6,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 3
+
+          },{ "type":"elite",
+
+            "health": 9,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 4,
+
+            "muddle":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 2,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 8,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 3,
+
+            "muddle":true
+
+          },{ "type":"elite",
+
+            "health": 10,
+
+            "move": 3,
+
+            "attack": 5,
+
+            "range": 4,
+
+            "muddle":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 3,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 8,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 4,
+
+            "muddle":true
+
+          },{ "type":"elite",
+
+            "health": 12,
+
+            "move": 3,
+
+            "attack": 5,
+
+            "range": 5,
+
+            "muddle":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 4,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 9,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 4,
+
+            "muddle":true
+
+          },{ "type":"elite",
+
+            "health": 14,
+
+            "move": 4,
+
+            "attack": 5,
+
+            "range": 5,
+
+            "muddle":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 5,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 12,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 4,
+
+            "muddle":true
+
+          },{ "type":"elite",
+
+            "health": 16,
+
+            "move": 4,
+
+            "attack": 6,
+
+            "range": 5,
+
+            "muddle":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 6,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 13,
+
+            "move": 4,
+
+            "attack": 5,
+
+            "range": 4,
+
+            "muddle":true
+
+          },{ "type":"elite",
+
+            "health": 19,
+
+            "move": 4,
+
+            "attack": 6,
+
+            "range": 5,
+
+            "muddle":true
+
+          }]
+
+        },        
+
+        {
+
+        "level": 7,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 16,
+
+            "move": 4,
+
+            "attack": 5,
+
+            "range": 4,
+
+            "muddle":true
+
+          },{ "type":"elite",
+
+            "health": 21,
+
+            "move": 4,
+
+            "attack": 7,
+
+            "range": 5,
+
+            "muddle":true
+
+          }]
+
+        }
+
+	]
+
+}

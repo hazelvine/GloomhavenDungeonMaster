@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef08c6b5ae94634c95b09df8e048d09, type: 3}
+  m_Name: Inox Shaman
+  m_EditorClassIdentifier: 
+  initiative: 0
+  creatureLevel: 1
+  image: {fileID: 21300000, guid: dd4174574e0d19740858e952dd35d943, type: 3}
+  thumbnail: {fileID: 21300000, guid: 6dfbaf022ecc79948bb925a402e3bf9a, type: 3}
+  dbStatPath: InoxShaman.json
+  DeckType: Shaman
+  deck:
+    name: Shaman
+    cards: []
+  creatureDeck: []
+  creature:
+  - {fileID: 11400000, guid: db2461274fc2420448986d231bc04cdd, type: 2}
+  - {fileID: 11400000, guid: 4b23b70e55266144c83c4f575e1ccd69, type: 2}
+  - {fileID: 11400000, guid: d7ee77cae31318c4bb52a86029f18840, type: 2}
+  - {fileID: 11400000, guid: 2ac000e227ad6124f955cef226148fd8, type: 2}
+  stats:
+    name: 
+    isBoss: 0
+    isNPC: 0
+    canFly: 0
+    immunity:
+      poison: 0
+      muddle: 0
+      curse: 0
+      immobilize: 0
+      disarm: 0
+      wound: 0
+      stun: 0
+      advantage: 0
+      disadvantage: 0
+      push: 0
+      pull: 0
+    level: []

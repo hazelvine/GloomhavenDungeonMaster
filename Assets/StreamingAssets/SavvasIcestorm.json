@@ -1,0 +1,321 @@
+{
+
+	"name": "Savvas Icestorm",
+
+	"level": [
+
+        {
+
+          "level": 0,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 7,
+
+            "move": 2,
+
+            "attack": 2,
+
+            "range": 3,
+
+            "pierce": 3
+
+          },{ "type":"elite",
+
+            "health": 12,
+
+            "move": 2,
+
+            "attack": 3,
+
+            "range": 4,
+
+            "pierce": 3
+
+          }]
+
+        },        
+
+        {
+
+        "level": 1,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 10,
+
+            "move": 2,
+
+            "attack": 2,
+
+            "range": 4,
+
+            "pierce": 3
+
+          },{ "type":"elite",
+
+            "health": 12,
+
+            "move": 2,
+
+            "attack": 3,
+
+            "range": 5,
+
+            "pierce": 3,
+
+            "shield": 1
+
+          }]
+
+        },        
+
+        {
+
+        "level": 2,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 12,
+
+            "move": 3,
+
+            "attack": 2,
+
+            "range": 4,
+
+            "pierce": 3
+
+          },{ "type":"elite",
+
+            "health": 15,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 5,
+
+            "pierce": 3,
+
+            "shield": 1
+
+          }]
+
+        },        
+
+        {
+
+        "level": 3,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 12,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 4,
+
+            "pierce": 3,
+
+            "shield": 1
+
+          },{ "type":"elite",
+
+            "health": 18,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 6,
+
+            "pierce": 3,
+
+            "shield": 1
+
+          }]
+
+        },        
+
+        {
+
+        "level": 4,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 14,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 5,
+
+            "pierce": 3,
+
+            "shield": 1
+
+          },{ "type":"elite",
+
+            "health": 19,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 6,
+
+            "pierce": 3,
+
+            "shield": 2
+
+          }]
+
+        },        
+
+        {
+
+        "level": 5,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 16,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 5,
+
+            "pierce": 3,
+
+            "shield": 1
+
+          },{ "type":"elite",
+
+            "health": 21,
+
+            "move": 4,
+
+            "attack": 5,
+
+            "range": 6,
+
+            "pierce": 3,
+
+            "shield": 2
+
+          }]
+
+        },        
+
+        {
+
+        "level": 6,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 16,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 5,
+
+            "pierce": 3,
+
+            "shield": 2
+
+          },{ "type":"elite",
+
+            "health": 23,
+
+            "move": 4,
+
+            "attack": 6,
+
+            "range": 6,
+
+            "pierce": 3,
+
+            "shield": 2
+
+          }]
+
+        },        
+
+        {
+
+        "level": 7,
+
+          "statGroup":[ 
+
+            { 
+
+            "type":"normal",
+
+            "health": 17,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 6,
+
+            "pierce": 3,
+
+            "shield": 2
+
+          },{ "type":"elite",
+
+            "health": 24,
+
+            "move": 4,
+
+            "attack": 6,
+
+            "range": 6,
+
+            "pierce":  4,
+
+            "shield": 3
+
+          }]
+
+        }
+
+	]
+
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Lurker
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: b684f1934c7a3604eac76fce87fbbfd7, type: 2}
+  - {fileID: 11400000, guid: 81b39d5ae1f228a44895fced42c6e036, type: 2}
+  - {fileID: 11400000, guid: d5daa3a6651cfbb41ae68da7d8214b7a, type: 2}
+  - {fileID: 11400000, guid: 023cf2e4c6bf4284098a22eed7ddb110, type: 2}
+  - {fileID: 11400000, guid: 1e7f0b08f420597479ddceefad48ac5c, type: 2}
+  - {fileID: 11400000, guid: 600bfb12b8a0e6345b03ba54719c1bc5, type: 2}
+  - {fileID: 11400000, guid: ef0982288615e074f9cf4d830b7e3656, type: 2}
+  - {fileID: 11400000, guid: 17d48570b2b6a6d4e8aa3019bab7c86d, type: 2}

@@ -1,0 +1,580 @@
+{
+	"scenario": [
+		{ 
+		"num": 0
+		, "name": "Custom"
+		, "monsterList":
+            [ "All" ]
+        },
+		{ 
+		"num": 1
+		, "name": "Black Barrow"
+		, "monsterList":
+            [ "Bandit Archer", "Bandit Guard", "Living Bones" ]
+        },
+		{ 
+		"num": 2
+		, "name": "Barrow Lair"
+		, "monsterList":
+            [ "Bandit Archer", "Bandit Commander", "Living Bones", "Living Corpse" ]
+        },
+		{ 
+		"num": 3
+		, "name": "Inox Encampment"
+		, "monsterList":
+            [ "Inox Archer", "Inox Guard", "Inox Shaman" ]
+        },
+		{ 
+		"num": 4
+		, "name": "Crypt of the Damned"
+		, "monsterList":
+            [ "Bandit Archer", "Cultist", "Living Bones", "Earth Demon", "Wind Demon" ]
+        },
+		{ 
+		"num": 5
+		, "name": "Ruinous Crypt"
+		, "monsterList":
+            [ "Cultist", "Flame Demon", "Frost Demon", "Living Bones", "Night Demon" ]
+        },
+		{ 
+		"num": 6
+		, "name": "Decaying Crypt"
+		, "monsterList":
+            [ "Living Bones", "Living Corpse", "Living Spirit" ]
+        },
+		{ 
+		"num": 7
+		, "name": "Vibrant Grotto"
+		, "monsterList":
+            [ "Forest Imp", "Cave Bear", "Inox Shaman", "Earth Demon" ]
+        },
+		{ 
+		"num": 8
+		, "name": "Gloomhaven Warehouse"
+		, "monsterList":
+            [ "Inox Bodyguard", "Living Bones", "Living Corpse" ]
+        },
+		{ 
+		"num": 9
+		, "name": "Diamond Mine"
+		, "monsterList":
+            [ "Hound", "Merciless Overseer", "Vermling Scout" ]
+        },
+		{ 
+		"num": 10
+		, "name": "Plane of Elemental Power"
+		, "monsterList":
+            [ "Earth Demon", "Flame Demon", "Sun Demon" ]
+        },
+		{ 
+		"num": 11
+		, "name": "Gloomhaven Square A"
+		, "monsterList":
+            [ "Captain of the Guard", "City Archer", "City Guard", "Living Bones", "Living Corpse"  ]
+        },
+		{ 
+		"num": 12
+		, "name": "Gloomhaven Square B"
+		, "monsterList":
+            [ "City Archer", "City Guard", "Cultist", "Jekserah", "Living Bones", "Living Corpse"  ]
+        },
+		{ 
+		"num": 13
+		, "name": "Temple of the Seer"
+		, "monsterList":
+            [ "Cave Bear", "Living Spirit", "Spitting Drake", "Stone Golem" ]
+        },
+		{ 
+		"num": 14
+		, "name": "Frozen Hollow"
+		, "monsterList":
+            [ "Frost Demon", "Hound", "Living Spirit"  ]
+        },
+		{ 
+		"num": 15
+		, "name": "Shrine of Strength"
+		, "monsterList":
+            [ "Stone Golem", "Savvas Icestorm", "Frost Demon", "Wind Demon", "Harrower Infester" ]
+        },
+		{ 
+		"num": 16
+		, "name": "Mountain Pass"
+		, "monsterList":
+            [ "Earth Demon", "Wind Demon", "Inox Guard", "Inox Archer" ]
+        },
+		{ 
+		"num": 17
+		, "name": "Lost Island"
+		, "monsterList":
+            [ "Vermling Scout", "Vermling Shaman", "Cave Bear"  ]
+        },
+		{ 
+		"num": 18
+		, "name": "Abandonned Sewers"
+		, "monsterList":
+            [ "Giant Viper", "Ooze", "Vermling Scout" ]
+        },
+		{ 
+		"num": 19
+		, "name": "Forgotten Crypt"
+		, "monsterList":
+            [ "Cultist", "Living Bones", "Living Corpse", "Living Spirit", "Hail" ]
+        },
+		{ 
+		"num": 20
+		, "name": "Necromancer's Sanctum"
+		, "monsterList":
+            [ "Living Bones", "Cultist", "Night Demon", "Living Corpse", "Jekserah" ]
+        },
+		{ 
+		"num": 21
+		, "name": "Infernal Throne"
+		, "monsterList":
+            [ "Sun Demon", "Frost Demon", "Night Demon", "Wind Demon", "Earth Demon", "Flame Demon", "Prime Demon" ]
+        },
+		{ 
+		"num": 22
+		, "name": "Temple of the Elements"
+		, "monsterList":
+            [ "Living Bones", "Cultist", "Earth Demon", "Flame Demon", "Frost Demon", "Wind Demon", "Altar" ]
+        },
+		{ 
+		"num": 23
+		, "name": "Deep Ruins"
+		, "monsterList":
+            [ "Stone Golem", "Ancient Artillery", "Living Bones", "Living Spirit" ]
+        },
+		{ 
+		"num": 24
+		, "name": "Echo Chamber"
+		, "monsterList":
+            [ "Rending Drake", "Ooze", "Living Spirit" ]
+        },
+		{ 
+		"num": 25
+		, "name": "Icecrag Ascent"
+		, "monsterList":
+            [ "Hound", "Rending Drake", "Spitting Drake" ]
+        },
+		{ 
+		"num": 26
+		, "name": "Ancient Cistern"
+		, "monsterList":
+            [ "Living Corpse", "Ooze", "Night Demon", "Black Imp" ]
+        },
+		{ 
+		"num": 27
+		, "name": "Ruinous Rift"
+		, "monsterList":
+            [ "Night Demon", "Wind Demon", "Frost Demon", "Sun Demon", "Earth Demon", "Flame Demon", "Hail" ]
+        },
+		{ 
+		"num": 28
+		, "name": "Outer Ritual Chamber"
+		, "monsterList":
+            [ "Living Corpse", "Cultist", "Living Bones", "Night Demon", "Sun Demon" ]
+        },
+		{ 
+		"num": 29
+		, "name": "Sanctuary of Gloom"
+		, "monsterList":
+            [ "Living Bones", "Living Corpse", "Living Spirit", "Black Imp" ]
+        },
+		{ 
+		"num": 30
+		, "name": "Shrine of the Depths"
+		, "monsterList":
+            [ "Ooze", "Lurker", "Deep Terror" ]
+        },
+		{ 
+		"num": 31
+		, "name": "Plane of Night"
+		, "monsterList":
+            [ "Deep Terror", "Night Demon", "Black Imp", "Rock Column" ]
+        },
+		{ 
+		"num": 32
+		, "name": "Decrepit Wood"
+		, "monsterList":
+            [ "Harrower Infester", "Giant Viper", "Deep Terror", "Black Imp" ]
+        },
+		{ 
+		"num": 33
+		, "name": "Savvas Armory"
+		, "monsterList":
+            [ "Savvas Icestorm", "Savvas Lavaflow", "Frost Demon", "Flame Demon", "Wind Demon", "Earth Demon", "Door" ]
+        },
+		{ 
+		"num": 34
+		, "name": "Scorched Summit"
+		, "monsterList":
+            [ "Rending Drake", "Spitting Drake", "Elder Drake", "Zephyr" ]
+        },
+		{ 
+		"num": 35
+		, "name": "Gloomhaven Battlements A"
+		, "monsterList":
+            [ "Flame Demon", "Frost Demon", "Earth Demon", "Wind Demon", "City Guard", "City Archer", "Captain of the Guard", "Door"]
+        },
+		{ 
+		"num": 36
+		, "name": "Gloomhaven Battlements B"
+		, "monsterList":
+            [ "Flame Demon", "Frost Demon", "Earth Demon", "Wind Demon", "City Archer", "Prime Demon B", "Gate"]
+        },
+		{ 
+		"num": 37
+		, "name": "Doom Trench"
+		, "monsterList":
+            [ "Lurker", "Deep Terror", "Harrower Infester" ]
+        },
+		{ 
+		"num": 38
+		, "name": "Slave Pens"
+		, "monsterList":
+            [ "Inox Guard", "Inox Archer", "Inox Shaman", "Stone Golem", "Orchid" ]
+        },
+		{ 
+		"num": 39
+		, "name": "Treacherous Divide"
+		, "monsterList":
+            ["Mysterious Altar", "Cave Bear", "Frost Demon", "Spitting Drake", "Cultist", "Living Bones" ]
+        },
+		{ 
+		"num": 40
+		, "name": "Ancient Defense Network"
+		, "monsterList":
+            [ "Living Corpse", "Flame Demon", "Cave Bear", "Stone Golem", "Forest Imp" ]
+        },
+		{ 
+		"num": 41
+		, "name": "Timeworn Tomb"
+		, "monsterList":
+            [ "Ancient Artillery", "Living Corpse", "Living Spirit", "Stone Golem" ]
+        },
+		{ 
+		"num": 42
+		, "name": "Realm of the Voice"
+		, "monsterList":
+            ["Chord", "Night Demon", "Wind Demon", "Living Spirit" ]
+        },
+		{ 
+		"num": 43
+		, "name": "Drake Nest"
+		, "monsterList":
+            [ "Flame Demon", "Rending Drake", "Spitting Drake" ]
+        },
+		{ 
+		"num": 44
+		, "name": "Tribal Assault"
+		, "monsterList":
+            [ "Inox Guard", "Inox Archer", "Hound", "Inox Shaman", "Redthorn", "Captive Orchid" ]
+        },
+		{ 
+		"num": 45
+		, "name": "Rebel Swamp"
+		, "monsterList":
+            ["Totem", "City Guard", "City Archer", "Hound" ]
+        },
+		{ 
+		"num": 46
+		, "name": "Nightmare Peak"
+		, "monsterList":
+            [ "Night Demon", "Frost Demon", "Wind Demon", "Savvas Icestorm", "Winged Horror" ]
+        },
+		{ 
+		"num": 47
+		, "name": "Lair of the Unseeing Eye"
+		, "monsterList":
+            [ "Lurker", "Deep Terror", "Harrower Infester", "The Sightless Eye" ]
+        },
+		{ 
+		"num": 48
+		, "name": "Shadow Weald"
+		, "monsterList":
+            [ "Forest Imp", "Earth Demon", "Harrower Infester", "Dark Rider" ]
+        },
+		{ 
+		"num": 49
+		, "name": "Rebel's Stand"
+		, "monsterList":
+            [ "Giant Viper", "City Archer", "City Guard", "Siege Cannon" ]
+        },
+		{ 
+		"num": 50
+		, "name": "Ghost Fortress"
+		, "monsterList":
+            [ "Night Demon", "Sun Demon", "Earth Demon", "Wind Demon" ]
+        },
+		{ 
+		"num": 51
+		, "name": "The Void"
+		, "monsterList":
+            [ "The Gloom" ]
+        },
+		{ 
+		"num": 52
+		, "name": "Noxious Cellar"
+		, "monsterList":
+            [ "Spitting Drake", "Ooze", "Vermling Scout", "Living Corpse", "Vermling Shaman" ]
+        },
+		{ 
+		"num": 53
+		, "name": "Crypt Basement"
+		, "monsterList":
+            [ "Ooze", "Living Corpse", "Living Spirit", "Living Bones", "Giant Viper" ]
+        },
+		{ 
+		"num": 54
+		, "name": "Palace of Ice"
+		, "monsterList":
+            [ "Cave Bear", "Living Spirit", "Frost Demon", "Harrower Infester" ]
+        },
+		{ 
+		"num": 55
+		, "name": "Foggy Thicket"
+		, "monsterList":
+            [ "All" ]
+        },
+		{ 
+		"num": 56
+		, "name": "Bandit Wood"
+		, "monsterList":
+            [ "Hound", "Bandit Archer", "Rending Drake", "Bandit Guard", "Orchid Captive" ]
+        },
+		{ 
+		"num": 57
+		, "name": "Investigation"
+		, "monsterList":
+            [ "City Archer", "City Guard", "Hound", "Harrower Infester" ]
+        },
+		{ 
+		"num": 58
+		, "name": "Bloody Shack"
+		, "monsterList":
+            ["Bone Pile", "Earth Demon", "Harrower Infester", "Black Imp", "City Guard" ]
+        },
+		{ 
+		"num": 59
+		, "name": "Forgotten Grove"
+		, "monsterList":
+            [ "Cave Bear", "Hound", "Forest Imp" ]
+        },
+		{ 
+		"num": 60
+		, "name": "Alchemy Lab"
+		, "monsterList":
+            [ "Ooze", "Giant Viper", "Hound", "Rending Drake", "Spitting Drake" ]
+        },
+		{ 
+		"num": 61
+		, "name": "Fading Lighthouse"
+		, "monsterList":
+            [ "Ooze", "Giant Viper", "Frost Demon", "Flame Demon" ]
+        },
+		{ 
+		"num": 62
+		, "name": "Pit of Souls"
+		, "monsterList":
+            [ "Living Bones", "Living Spirit", "Hungry Soul" ]
+        },
+		{ 
+		"num": 63
+		, "name": "Magma Pit"
+		, "monsterList":
+            [ "Vermling Scout", "Inox Guard", "Inox Archer", "Flame Demon" ]
+        },
+		{ 
+		"num": 64
+		, "name": "Underwater Lagoon"
+		, "monsterList":
+            [ "Ooze", "Forest Imp", "Rending Drake" ]
+        },
+		{ 
+		"num": 65
+		, "name": "Sulfur Mine"
+		, "monsterList":
+            [ "Vermling Scout", "Hound", "Inox Shaman" ]
+        },
+		{ 
+		"num": 66
+		, "name": "Clockwork Cove"
+		, "monsterList":
+            [ "Ooze", "Ancient Artillery", "Living Spirit", "Stone Golem" ]
+        },
+		{ 
+		"num": 67
+		, "name": "Arcane Library"
+		, "monsterList":
+            [ "Forest Imp", "Cave Bear", "Arcane Golem" ]
+        },
+		{ 
+		"num": 68
+		, "name": "Toxic Moor"
+		, "monsterList":
+            ["The Vibrant Tree", "Rending Drake", "Black Imp", "Giant Viper", "Living Corpse" ]
+        },
+		{ 
+		"num": 69
+		, "name": "Well of the Unfortunate"
+		, "monsterList":
+            [ "Vermling Scout", "Vermling Shaman", "Forest Imp", "Stone Golem", "Living Spirit" ]
+        },
+		{ 
+		"num": 70
+		, "name": "Chained Isle"
+		, "monsterList":
+            [ "Night Demon", "Wind Demon", "Living Spirit" ]
+        },
+		{ 
+		"num": 71
+		, "name": "Windswept Highlands"
+		, "monsterList":
+            [ "Spitting Drake", "Wind Demon", "Sun Demon" ]
+        },
+		{ 
+		"num": 72
+		, "name": "Oozing Grove"
+		, "monsterList":
+            ["Tree", "Ooze", "Forest Imp", "Giant Viper" ]
+        },
+		{ 
+		"num": 73
+		, "name": "Rockslide Ridge"
+		, "monsterList":
+            [ "Hound", "Inox Archer", "Ancient Artillery", "Inox Guard", "Inox Shaman" ]
+        },
+		{ 
+		"num": 74
+		, "name": "Merchant Ship"
+		, "monsterList":
+            [ "Bandit Guard", "Bandit Archer", "Lurker", "Deep Terror" ]
+        },
+		{ 
+		"num": 75
+		, "name": "Overgrown Graveyard"
+		, "monsterList":
+            ["Bloated Regent", "Living Bones", "Living Corpse", "Living Spirit" ]
+        },
+		{ 
+		"num": 76
+		, "name": "Harrower Hive"
+		, "monsterList":
+            [ "Giant Viper", "Living Bones", "Night Demon", "Harrower Infester" ]
+        },
+		{ 
+		"num": 77
+		, "name": "Vault of Secrets"
+		, "monsterList":
+            [ "City Archer", "City Guard", "Stone Golem", "Hound" ]
+        },
+		{ 
+		"num": 78
+		, "name": "Sacrifice Pit"
+		, "monsterList":
+            ["Escort Cultist", "Bandit Guard", "Bandit Archer", "Cultist", "Living Bones", "Black Imp" ]
+        },
+		{ 
+		"num": 79
+		, "name": "Lost Temple"
+		, "monsterList":
+            [ "Stone Golem", "Giant Viper", "The Betrayer", "Fish" ]
+        },
+		{ 
+		"num": 80
+		, "name": "Vigil Keep"
+		, "monsterList":
+            [ "City Guard", "City Archer", "Ancient Artillery", "Hound" ]
+        },
+		{ 
+		"num": 81
+		, "name": "Temple of the Eclipse"
+		, "monsterList":
+            [ "Night Demon", "Sun Demon", "Stone Golem", "Ancient Artillery", "The Colorless" ]
+        },
+		{ 
+		"num": 82
+		, "name": "Burning Mountain"
+		, "monsterList":
+            [ "Earth Demon", "Flame Demon", "Stone Golem" ]
+        },
+		{ 
+		"num": 83
+		, "name": "Shadows Within"
+		, "monsterList":
+            [ "Hound", "Cultist", "Living Bones", "Living Spirit", "Flame Demon" ]
+        },
+		{ 
+		"num": 84
+		, "name": "Crystalline Cave"
+		, "monsterList":
+            ["Crystal", "Flame Demon", "Frost Demon", "Earth Demon" ]
+        },
+		{ 
+		"num": 85
+		, "name": "Sun Temple"
+		, "monsterList":
+            [ "Hound", "Black Imp", "Night Demon", "Sun Demon" ]
+        },
+		{ 
+		"num": 86
+		, "name": "Harried Village"
+		, "monsterList":
+            [ "Cave Bear", "Vermling Shaman", "Vermling Scout", "Lurker", "Villager" ]
+        },
+		{ 
+		"num": 87
+		, "name": "Corrupted Cove"
+		, "monsterList":
+            ["Giant Ooze", "Lurker", "Deep Terror", "Ooze", "Black Imp" ]
+        },
+		{ 
+		"num": 88
+		, "name": "Plane of Water"
+		, "monsterList":
+            [ "Frost Demon", "Ooze", "Lurker" ]
+        },
+		{ 
+		"num": 89
+		, "name": "Syndicate Hideout"
+		, "monsterList":
+            ["Sin-Ra Cultist", "Bandit Archer", "Bandit Guard", "Giant Viper" ]
+        },
+		{ 
+		"num": 90
+		, "name": "Demonic Rift"
+		, "monsterList":
+            [ "Earth Demon", "Wind Demon", "Night Demon", "Living Spirit" ]
+        },
+		{ 
+		"num": 91
+		, "name": "Wild Melee"
+		, "monsterList":
+            [ "Cave Bear", "Hound", "Bandit Guard", "Bandit Archer", "Living Spirit" ]
+        },
+		{ 
+		"num": 92
+		, "name": "Back Alley Brawl"
+		, "monsterList":
+            [ "Bandit Guard", "Bandit Archer", "Inox Guard", "Savvas Lavaflow", "Flame Demon", "Earth Demon", "City Guard", "City Archer" ]
+        },
+		{ 
+		"num": 93
+		, "name": "Sunken Vessel"
+		, "monsterList":
+            [ "Lurker", "Frost Demon", "Living Spirit" ]
+        },
+		{ 
+		"num": 94
+		, "name": "Vermling Nest"
+		, "monsterList":
+            [ "Hound", "Vermling Scout", "Vermling Shaman", "Cave Bear" ]
+        },
+		{ 
+		"num": 95
+		, "name": "Payment Due"
+		, "monsterList":
+            [ "Deep Terror", "Flame Demon", "Earth Demon", "Savvas Lavaflow" ]
+        }
+	]
+}

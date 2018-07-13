@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Savvas Icestorm
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: aa662c1607150704088d49221659be22, type: 2}
+  - {fileID: 11400000, guid: 68305864ef97f9442870de616dd6437a, type: 2}
+  - {fileID: 11400000, guid: 9f9f5c423a2d930489ee833fa36bd97c, type: 2}
+  - {fileID: 11400000, guid: 7f65e1fb82990e14e93a34bccc44dd2b, type: 2}
+  - {fileID: 11400000, guid: 2dd60a99cd3d8a847824c1d3842c35b3, type: 2}
+  - {fileID: 11400000, guid: 79f94149791784e47b43303b2ad112f9, type: 2}
+  - {fileID: 11400000, guid: ebbaa6b26ec6e224aa292e469f08f297, type: 2}
+  - {fileID: 11400000, guid: 4da9a850d0004d5468ff1bb1785e8e20, type: 2}

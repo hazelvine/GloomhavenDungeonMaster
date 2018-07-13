@@ -1,0 +1,315 @@
+{
+
+	"name": "Bandit Guard",
+
+	"level": [
+
+        {
+
+          "level": 0,
+
+          "statGroup":[
+
+		{
+
+			"type":"normal",
+
+            "health": 5,
+
+            "move": 2,
+
+            "attack": 2,
+
+            "range": 0
+
+          }
+
+		,{
+
+			"type":"elite",
+
+            "health": 9,
+
+            "move": 2,
+
+            "attack": 3,
+
+            "range": 0
+
+          }]
+
+        },
+
+        {
+
+          "level": 1,
+
+          "statGroup":[
+
+		{
+
+			"type":"normal",
+
+            "health": 6,
+
+            "move": 3,
+
+            "attack": 2,
+
+            "range": 0
+
+          }
+
+		,{
+
+			"type":"elite",
+
+            "health": 9,
+
+            "move": 2,
+
+            "attack": 3,
+
+            "range": 0,
+
+            "shield":1
+
+          }]
+
+        },
+
+        {
+
+          "level": 2,
+
+          "statGroup":[
+
+		{
+
+			"type":"normal",
+
+            "health": 6,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 0
+
+          }
+
+		,{
+
+			"type":"elite",
+
+            "health": 10,
+
+            "move": 2,
+
+            "attack": 4,
+
+            "range": 0,
+
+            "shield":1
+
+          }]
+
+        },
+
+        {
+
+          "level": 3,
+
+          "statGroup":[
+
+		{
+
+			"type":"normal",
+
+            "health": 9,
+
+            "move": 3,
+
+            "attack": 3,
+
+            "range": 0
+
+         }
+
+		,{
+
+			"type":"elite",
+
+            "health": 10,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 0,
+
+			"shield":2
+
+          }]
+
+        },
+
+        {
+
+          "level": 4,
+
+          "statGroup":[
+
+		{
+
+			"type":"normal",
+
+            "health": 10,
+
+            "move": 4,
+
+            "attack": 3,
+
+            "range": 0
+
+          }
+
+		,{
+
+			"type":"elite",
+
+            "health": 11,
+
+            "move": 3,
+
+            "attack": 4,
+
+            "range": 0,
+
+            "muddle":true,
+
+			"shield":2
+
+          }]
+
+        },
+
+        {
+
+          "level": 5,
+
+          "statGroup":[
+
+		{
+
+			"type":"normal",
+
+            "health": 11,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 0
+
+          },
+		  {
+
+			"type":"elite",
+
+            "health": 12,
+
+            "move": 3,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "muddle":true,
+
+			"shield":2
+
+          }]
+
+        },
+
+        {
+
+          "level": 6,
+
+          "statGroup":[
+
+		{
+
+		"type":"normal",
+
+            "health": 14,
+
+            "move": 4,
+
+            "attack": 4,
+
+            "range": 0
+
+          }
+
+		,{
+
+		"type":"elite",
+
+            "health": 14,
+
+            "move": 4,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "muddle":true,
+
+			"shield":2
+
+          }]
+
+        },
+
+        {
+
+          "level": 7,
+
+          "statGroup":[
+
+		{
+
+		"type":"normal",
+
+            "health": 16,
+
+            "move": 5,
+
+            "attack": 4,
+
+            "range": 0
+
+         }
+
+		,{
+
+		"type":"elite",
+
+            "health": 14,
+
+            "move": 3,
+
+            "attack": 5,
+
+            "range": 0,
+
+            "muddle":true,
+
+			"shield":3
+
+          }]
+        }
+      ]
+}

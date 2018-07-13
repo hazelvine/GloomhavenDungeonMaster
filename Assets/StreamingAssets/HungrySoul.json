@@ -1,0 +1,150 @@
+{
+	"name": "Hungry Soul",
+	"isBoss":true,
+        "level": [
+        {
+          "level": 0,
+          "statGroup":[{ "type":"normal",
+           "health": 6,
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+			"target":2,
+			"shield":5
+          },{ "type":"elite",
+            "health": 6,
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+			"target":2,
+			"shield":5
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[{ "type":"normal",
+             "health": 6,
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+			"target":3,
+			"shield":6
+          },{ "type":"elite",
+            "health": 6,
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+			"target":3,
+			"shield":6
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[{ "type":"normal",
+            "health": 7,
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+			"target":3,
+			"shield":6
+          },{ "type":"elite",
+            "health": 7,
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+			"target":3,
+			"shield":6
+          }]
+        },
+        {
+          "level": 3,
+          "statGroup":[{ "type":"normal",
+            "health": 10,
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+			"target":3,
+			"shield":6
+          },{ "type":"elite",
+            "health": 10,
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+			"target":3,
+			"shield":6
+          }]
+        },
+        {
+          "level": 4,
+          "statGroup":[{ "type":"normal",
+            "health": 11,
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          },{ "type":"elite",
+            "health": 11,
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[{ "type":"normal",
+            "health": 11,
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          },{ "type":"elite",
+            "health": 11,
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[{ "type":"normal",
+            "health": 11,
+            "move": 6,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          },{ "type":"elite",
+            "health": 11,
+            "move": 6,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[{ "type":"normal",
+            "health": 14,
+            "move": 6,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          },{ "type":"elite",
+            "health": 14,
+            "move": 6,
+            "attack": 6,
+            "range": 0,
+			"target":3,
+			"shield":6
+          }]
+        }
+	]
+}

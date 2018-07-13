@@ -1,0 +1,129 @@
+{
+	"name": "Inox Guard",
+        "level": [
+        {
+          "level": 0,
+          "statGroup":[{ "type":"normal",
+            "health": 5,
+            "move": 2,
+            "attack": 2,
+            "range": 0
+          },{ "type":"elite",
+            "health": 9,
+            "move": 1,
+            "attack": 3,
+            "range": 0,
+			"retaliate":1
+          }]
+        },
+        {
+          "level": 1,
+          "statGroup":[{ "type":"normal",
+            "health": 8,
+            "move": 2,
+            "attack": 2,
+            "range": 0
+          },{ "type":"elite",
+            "health": 10,
+            "move": 2,
+            "attack": 3,
+            "range": 0,
+			"retaliate":1
+          }]
+        },
+        {
+          "level": 2,
+          "statGroup":[{ "type":"normal",
+            "health": 9,
+            "move": 2,
+            "attack": 3,
+            "range": 0
+          },{ "type":"elite",
+            "health": 12,
+            "move": 2,
+            "attack": 4,
+            "range": 0,
+			"retaliate":2
+          }]
+        },
+        {
+          "level": 3,
+          "statGroup":[{ "type":"normal",
+            "health": 11,
+            "move": 3,
+            "attack": 3,
+            "range": 0
+          },{ "type":"elite",
+            "health": 15,
+            "move": 2,
+            "attack": 4,
+            "range": 0,
+			"retaliate":3
+          }]
+        },
+        {
+          "level": 4,
+          "statGroup":[{ "type":"normal",
+            "health": 12,
+            "move": 3,
+            "attack": 3,
+            "range": 0,
+			"retaliate":1
+          },{ "type":"elite",
+            "health": 17,
+            "move": 2,
+            "attack": 5,
+            "range": 0,
+			"retaliate":3
+          }]
+        },
+        {
+          "level": 5,
+          "statGroup":[{ "type":"normal",
+            "health": 13,
+            "move": 3,
+            "attack": 4,
+            "range": 0,
+			"retaliate":1
+          },{ "type":"elite",
+            "health": 19,
+            "move": 2,
+            "attack": 5,
+            "range": 0,
+			"retaliate":4
+          }]
+        },
+        {
+          "level": 6,
+          "statGroup":[{ "type":"normal",
+            "health": 16,
+            "move": 3,
+            "attack": 4,
+            "range": 0,
+			"retaliate":1
+          },{ "type":"elite",
+            "health": 21,
+            "move": 3,
+            "attack": 5,
+            "range": 0,
+			"retaliate":4
+          }]
+        },
+        {
+          "level": 7,
+          "statGroup":[{ "type":"normal",
+            "health": 19,
+            "move": 3,
+            "attack": 4,
+            "range": 0,
+			"retaliate":2
+          },{ "type":"elite",
+            "health": 23,
+            "move": 3,
+            "attack": 6,
+            "range": 0,
+			"retaliate":4
+          }]
+        }
+	]
+}

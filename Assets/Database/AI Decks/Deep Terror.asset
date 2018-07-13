@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Deep Terror
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: ad86095b1db801545b260211675b6392, type: 2}
+  - {fileID: 11400000, guid: 9de83f4a8568300478f6f84c07814ca1, type: 2}
+  - {fileID: 11400000, guid: 051263c92ce58c640b2b6a834ebd320a, type: 2}
+  - {fileID: 11400000, guid: 9668a752f213e344abd8ca29d5ab375b, type: 2}
+  - {fileID: 11400000, guid: ead04b839d51ab24f842097b9eeae4a5, type: 2}
+  - {fileID: 11400000, guid: 666ab629c15deb341989082841e82b18, type: 2}
+  - {fileID: 11400000, guid: 2728f30f611f5f64bb80d5c020603f8a, type: 2}
+  - {fileID: 11400000, guid: 5a11373679fc49c42a8bf651369631b4, type: 2}

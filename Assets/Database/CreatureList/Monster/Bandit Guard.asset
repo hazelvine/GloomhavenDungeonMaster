@@ -1,0 +1,1146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef08c6b5ae94634c95b09df8e048d09, type: 3}
+  m_Name: Bandit Guard
+  m_EditorClassIdentifier: 
+  initiative: 55
+  creatureLevel: 1
+  image: {fileID: 21300000, guid: 93e378136f75cff489165b09a005e9cb, type: 3}
+  thumbnail: {fileID: 21300000, guid: 31fcad15b39618a4c93bb095c5b1645a, type: 3}
+  dbStatPath: BanditGuard.json
+  DeckType: Guard
+  deck:
+    name: Guard
+    cards:
+    - shuffle: 1
+      initiative: 15
+      line:
+      - name: shield
+        jump: 0
+        mod: 1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: retaliate
+        jump: 0
+        mod: 2
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+    - shuffle: 0
+      initiative: 30
+      line:
+      - name: move
+        jump: 0
+        mod: 1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: attack
+        jump: 0
+        mod: -1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+    - shuffle: 0
+      initiative: 35
+      line:
+      - name: move
+        jump: 0
+        mod: -1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: attack
+        jump: 0
+        mod: 0
+        range: 2
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+    - shuffle: 0
+      initiative: 50
+      line:
+      - name: move
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: attack
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+    - shuffle: 0
+      initiative: 50
+      line:
+      - name: move
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: attack
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+    - shuffle: 0
+      initiative: 70
+      line:
+      - name: move
+        jump: 0
+        mod: -1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: attack
+        jump: 0
+        mod: 1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+    - shuffle: 0
+      initiative: 55
+      line:
+      - name: move
+        jump: 0
+        mod: -1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: attack
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: strengthen
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+    - shuffle: 1
+      initiative: 15
+      line:
+      - name: shield
+        jump: 0
+        mod: 1
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 0
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+      - name: attack
+        jump: 0
+        mod: 0
+        range: 0
+        shield: 0
+        pierce: 0
+        target: 0
+        push: 0
+        pull: 0
+        aoe: 
+        aoe2: aoe-none
+        label: 
+        immobilize: 0
+        curse: 0
+        wound: 0
+        disarm: 0
+        muddle: 0
+        poison: 1
+        stun: 0
+        bless: 0
+        strengthen: 0
+        element: 
+        toElement: 
+        action: 
+  creatureDeck:
+  - shuffle: 0
+    initiative: 55
+    line:
+    - name: move
+      jump: 0
+      mod: -1
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: attack
+      jump: 0
+      mod: 0
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: strengthen
+      jump: 0
+      mod: 0
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+  - shuffle: 0
+    initiative: 70
+    line:
+    - name: move
+      jump: 0
+      mod: -1
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: attack
+      jump: 0
+      mod: 1
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+  - shuffle: 1
+    initiative: 15
+    line:
+    - name: shield
+      jump: 0
+      mod: 1
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: attack
+      jump: 0
+      mod: 0
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 1
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+  - shuffle: 1
+    initiative: 15
+    line:
+    - name: shield
+      jump: 0
+      mod: 1
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: retaliate
+      jump: 0
+      mod: 2
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+  - shuffle: 0
+    initiative: 35
+    line:
+    - name: move
+      jump: 0
+      mod: -1
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: attack
+      jump: 0
+      mod: 0
+      range: 2
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+  - shuffle: 0
+    initiative: 50
+    line:
+    - name: move
+      jump: 0
+      mod: 0
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+    - name: attack
+      jump: 0
+      mod: 0
+      range: 0
+      shield: 0
+      pierce: 0
+      target: 0
+      push: 0
+      pull: 0
+      aoe: 
+      aoe2: aoe-none
+      label: 
+      immobilize: 0
+      curse: 0
+      wound: 0
+      disarm: 0
+      muddle: 0
+      poison: 0
+      stun: 0
+      bless: 0
+      strengthen: 0
+      element: 
+      toElement: 
+      action: 
+  creature:
+  - {fileID: 11400000, guid: c451122d84f56b2458f638be0456e4e1, type: 2}
+  - {fileID: 11400000, guid: 95dc03eb7c0ce824db98994cd999de34, type: 2}
+  - {fileID: 11400000, guid: 7327c91da7801b742b3edefd0af125dc, type: 2}
+  - {fileID: 11400000, guid: 21394b9cf532c4542a85d4eeb3199ac1, type: 2}
+  - {fileID: 11400000, guid: 2900418aea571b34787e2b5fc64cb853, type: 2}
+  - {fileID: 11400000, guid: 26ea484910170114281095e0998e8dda, type: 2}
+  stats:
+    name: Bandit Guard
+    isBoss: 0
+    isNPC: 0
+    canFly: 0
+    immunity:
+      poison: 0
+      muddle: 0
+      curse: 0
+      immobilize: 0
+      disarm: 0
+      wound: 0
+      stun: 0
+      advantage: 0
+      disadvantage: 0
+      push: 0
+      pull: 0
+    level:
+    - level: 0
+      statGroup:
+      - type: normal
+        health: 5
+        move: 2
+        attack: 2
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 9
+        move: 2
+        attack: 3
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 1
+      statGroup:
+      - type: normal
+        health: 6
+        move: 3
+        attack: 2
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 9
+        move: 2
+        attack: 3
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 1
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 2
+      statGroup:
+      - type: normal
+        health: 6
+        move: 3
+        attack: 3
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 10
+        move: 2
+        attack: 4
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 1
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 3
+      statGroup:
+      - type: normal
+        health: 9
+        move: 3
+        attack: 3
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 10
+        move: 3
+        attack: 4
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 2
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 4
+      statGroup:
+      - type: normal
+        health: 10
+        move: 4
+        attack: 3
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 11
+        move: 3
+        attack: 4
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 1
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 2
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 5
+      statGroup:
+      - type: normal
+        health: 11
+        move: 4
+        attack: 4
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 12
+        move: 3
+        attack: 5
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 1
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 2
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 6
+      statGroup:
+      - type: normal
+        health: 14
+        move: 4
+        attack: 4
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 14
+        move: 4
+        attack: 5
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 1
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 2
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+    - level: 7
+      statGroup:
+      - type: normal
+        health: 16
+        move: 5
+        attack: 4
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 0
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 0
+        target: 0
+        retaliate: 0
+        retaliateRange: 0
+      - type: elite
+        health: 14
+        move: 3
+        attack: 5
+        range: 0
+        heal: 0
+        poison: 0
+        muddle: 1
+        curse: 0
+        immobilize: 0
+        disarm: 0
+        wound: 0
+        stun: 0
+        advantage: 0
+        disadvantage: 0
+        pierce: 0
+        shield: 3
+        target: 0
+        retaliate: 0
+        retaliateRange: 0

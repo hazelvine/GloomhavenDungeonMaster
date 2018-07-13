@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Harrower Infester
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 79f041ef6d1c0a14d95b86473e650df4, type: 2}
+  - {fileID: 11400000, guid: 503d8a56d44dbac4780eaa62afbe76d1, type: 2}
+  - {fileID: 11400000, guid: d3bee955619d10a4b90ea215e0cc8f2b, type: 2}
+  - {fileID: 11400000, guid: 27b872679e8d09f4f96f37524cd0320a, type: 2}
+  - {fileID: 11400000, guid: 71210ec63bf035e4bbe999e04d5acf54, type: 2}
+  - {fileID: 11400000, guid: 7d8e82e0c6cd6f644addb7279ef58134, type: 2}
+  - {fileID: 11400000, guid: f04b9a53c0b63d44aa281678285fdf33, type: 2}
+  - {fileID: 11400000, guid: ae296229604713840b7db560a5266a9c, type: 2}

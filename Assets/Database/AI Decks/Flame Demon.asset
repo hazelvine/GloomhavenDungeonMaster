@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2e69e54bc7334099a531a47365f5b, type: 3}
+  m_Name: Flame Demon
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 4b327ab0f73e76043b28aab67a9fa47c, type: 2}
+  - {fileID: 11400000, guid: 28a834dcfbca47a4e86ce5afa995b88e, type: 2}
+  - {fileID: 11400000, guid: 55f49e8d7d4b6654e8c593bcb26c894b, type: 2}
+  - {fileID: 11400000, guid: d292eaf966e69e648a7f817f8d1eb97b, type: 2}
+  - {fileID: 11400000, guid: f4078dac163b92042a3f290cc8b0e003, type: 2}
+  - {fileID: 11400000, guid: c3ecba18f196bea4998493c6c529c667, type: 2}
+  - {fileID: 11400000, guid: f17e900db2314eb48a59d83925d5d44d, type: 2}
+  - {fileID: 11400000, guid: 52a393fc2d6c1754f899df46d11dfdd6, type: 2}
