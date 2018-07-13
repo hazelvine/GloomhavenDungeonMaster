@@ -31,7 +31,7 @@ public class ModifierDeckController : MonoBehaviour {
     private int blessings;
     private int curses;
 
-    private int MaxBlessings = 7;
+    private int MaxBlessings = 10;
     private int MaxCurses = 10;
 
     public void DrawCard()
