@@ -157,8 +157,8 @@ public class ModifierDeckController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        curseCount.text = (10-curses).ToString();
-        blessingCount.text = (7-blessings).ToString();
+        curseCount.text = (MaxCurses-curses).ToString();
+        blessingCount.text = (MaxBlessings-blessings).ToString();
         cardsLeft.text = deck.Count.ToString();
         if(curses >= MaxCurses)
         {
